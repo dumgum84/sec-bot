@@ -347,17 +347,25 @@ def _template_summary(ticker: str, ext: dict, ranking_entry: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def _render_filing(filing_score: dict, ext: dict, summary: str) -> str:
-    """Render one filing's full markdown entry: header + tier + SEC link + triggers + summary."""
+    """
+    Render one filing's full markdown entry: header + tier + SEC link +
+    triggers + summary.
+
+    The heading ### TICKER [Tier] generates a GFM anchor #ticker-tier that
+    the chokepoints section links to — no <a id> tags needed.
+    """
     ticker = filing_score["ticker"]
     tier = filing_score.get("tier", "quiet")
     triggers = filing_score.get("triggers", [])
     accession = filing_score.get("accession", "")
     cik = filing_score.get("cik", "")
     primary_doc = filing_score.get("primary_document", "")
+    cp_score = filing_score.get("chokepoint_score", 0)
 
     # Header. Tier shown in brackets — consistent title case across all tiers
     # for visual uniformity. The header is the place to communicate the tier;
     # the LLM prose is forbidden from using these words (see prompt).
+    # GFM renders "### BAX [Critical]" as anchor #bax-critical.
     tier_label = tier.capitalize()
     header = f"### {ticker} [{tier_label}]"
 
@@ -381,7 +389,48 @@ def _render_filing(filing_score: dict, ext: dict, summary: str) -> str:
     else:
         triggers_line = "_Triggers: none (quiet filing)._"
 
-    return "\n".join([header, subheader, "", triggers_line, "", summary, ""])
+    # Chokepoint connectivity note — only shown when nonzero.
+    cp_line = (f"_Chokepoints: {cp_score} cross-corpus connection{'s' if cp_score != 1 else ''} detected._"
+               if cp_score > 0 else "")
+
+    parts = [header, subheader, "", triggers_line]
+    if cp_line:
+        parts.append(cp_line)
+    parts += ["", summary, ""]
+
+    return "\n".join(parts)
+
+
+# ---------------------------------------------------------------------------
+# Chokepoints integration
+# ---------------------------------------------------------------------------
+
+def _build_chokepoints_section(extractions: dict, ticker_tiers: dict | None = None) -> str:
+    """
+    Attempt to compute and format the chokepoints section. Returns an empty
+    string if chokepoints.py is unavailable or computation fails — the rest
+    of the digest still renders normally.
+
+    ticker_tiers: {ticker: tier_string} used to build GFM heading anchor links
+    so the chokepoints list links directly to each filing's ### TICKER [Tier]
+    heading without needing <a id> tags.
+    """
+    try:
+        from chokepoints import compute_chokepoints, format_chokepoints_section
+    except ImportError:
+        return ""
+
+    try:
+        cp = compute_chokepoints(extractions)
+        total = sum(len(v) for v in cp.values())
+        print(f"[digest] Chokepoints computed: {total} entities "
+              f"({len(cp['vendors'])} vendor · "
+              f"{len(cp['customers'])} customer · "
+              f"{len(cp['competitors'])} competitor)")
+        return format_chokepoints_section(cp, ticker_tiers=ticker_tiers)
+    except Exception as e:
+        print(f"[digest] Chokepoint section failed (non-fatal): {e}")
+        return ""
 
 
 # ---------------------------------------------------------------------------
@@ -432,6 +481,15 @@ def build_digest(extractions: dict, ranking: dict, *,
         "---",
         "",
     ]
+
+    # Chokepoints section — injected between the title block and the filing
+    # entries so the reader gets the aggregate cross-corpus view before
+    # diving into individual filings. Build ticker→tier lookup so chokepoints
+    # can generate GFM heading anchors (#ticker-tier) matching digest headings.
+    ticker_tiers = {f["ticker"]: f.get("tier", "quiet") for f in filings}
+    chokepoints_md = _build_chokepoints_section(extractions, ticker_tiers=ticker_tiers)
+    if chokepoints_md:
+        lines.append(chokepoints_md)
 
     # Track LLM cost and cache hits so the user knows what they paid for
     cache_hits = 0
