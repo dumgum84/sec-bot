@@ -55,7 +55,8 @@ secbot_0.1.0/
 │   ├── batch.py             # batch process the watch queue
 │   ├── extract.py           # LLM extraction (6 calls per filing)
 │   ├── rank.py              # tier-based ranking (rules in this file)
-│   └── digest.py            # markdown report generator
+│   ├── digest.py            # markdown report generator
+│   └── chokepoints.py       # cross-filing entity aggregation (no LLM cost)
 └── output/
     ├── sec_report.md        # ← read this
     ├── data/                # machine-readable artifacts
@@ -88,9 +89,11 @@ sec_report.py
                   writes output/data/extractions.json   ← $$ API calls
    ↓
 5. rank.py        evaluates triggers, assigns critical/notable/quiet,
+                  applies chokepoint connectivity as within-tier tiebreaker,
                   writes output/data/ranking.json
    ↓
 6. digest.py      writes one research note per filing,
+                  prepends chokepoints section to report,
                   writes output/sec_report.md           ← $$ API calls
 ```
 
@@ -98,6 +101,51 @@ Cost per full run from scratch (~500 filings): ~$50 in API spend, ~120
 minutes wall time. Repeat runs are much cheaper because filings and
 extractions are cached — only new tickers since the last run actually hit
 the API.
+
+## Chokepoints
+
+`utils/chokepoints.py` runs automatically as part of every pipeline run.
+It reads the already-extracted data and identifies named entities (companies)
+that appear across multiple filings as vendors, customers, or competitors.
+
+The signal threshold is **3+ mentions** — frequent enough to be a real
+structural pattern, rare enough to be non-obvious. There is no upper cap:
+a supplier named by 60 filers is a stronger signal than one named by 6, not
+a weaker one. Universal infrastructure noise (Amazon, Google, Microsoft) is
+filtered by a denylist rather than an arbitrary ceiling.
+
+The output appears at the top of `sec_report.md` as a navigable index:
+
+```
+## Chokepoints across this run
+
+Vendors named by multiple filers:
+- Cintas — 4 filers ([KOP](#kop-notable), [ROCK](#rock-notable), ...)
+
+Customers named by multiple filers:
+- Walmart — 3 filers ([JBSS](#jbss-quiet), ...)
+
+Competitors named by multiple filers:
+- Salesforce — 6 filers (...)
+```
+
+Each ticker in the list is a clickable link that jumps to that filing's
+entry below. Chokepoints also influence reading order within each tier:
+filings connected to more cross-corpus patterns surface first.
+
+**No LLM calls. Free per run.** The chokepoint analysis only aggregates data
+already paid for during extraction. The signal compounds over time — more
+monthly runs means a richer corpus and sharper patterns.
+
+Run standalone to probe the data interactively:
+
+```
+python utils/chokepoints.py              # default min=3
+python utils/chokepoints.py --min 2     # catch rarer patterns
+```
+
+To tune which entities get filtered as noise, edit `_DENYLIST` and
+`_ALIASES` at the top of `utils/chokepoints.py`.
 
 ## Tier definitions
 
@@ -124,6 +172,9 @@ these fire:
 
 A filing lands in **quiet** otherwise.
 
+Within each tier, filings are ordered by: trigger count descending →
+chokepoint connectivity descending → ticker alphabetical.
+
 To tune triggers, edit the detector functions in `utils/rank.py`. After
 editing, re-run `py sec_report.py` — re-ranking is free, and the digest
 will regenerate using cached extractions and summaries.
@@ -133,11 +184,11 @@ will regenerate using cached extractions and summaries.
 Re-run monthly with the default `--days 45`. The 45-day window catches any
 filing from the past month plus a 15-day safety margin for SEC indexing
 delays. Caching means each monthly run only does work on filings that are
-actually new.
+actually new. The chokepoints corpus grows automatically with each run.
 
 ## Iteration is cheap
 
-Once you've done one full run, three things are essentially free to iterate
+Once you've done one full run, these things are essentially free to iterate
 on:
 
 - **Tier rules.** Edit `utils/rank.py`. Re-running re-ranks instantly.
@@ -147,6 +198,9 @@ on:
 - **Universe parameters.** Different `--min-mcap-b`, `--max-mcap-b`,
   `--rank-by` produce different universes; cached data is reused for any
   filings that overlap.
+- **Chokepoint tuning.** Edit `_DENYLIST` and `_ALIASES` in
+  `utils/chokepoints.py`, or adjust `DEFAULT_MIN_MENTIONS`. Re-running
+  costs nothing — chokepoints reads the existing extractions.
 
 ## Output meanings
 
@@ -170,7 +224,7 @@ splitter's output.
 | 2. Watcher | ~1 min per 100 tickers | — |
 | 3. Batch | ~5-10 sec per filing | — |
 | 4. Extract | ~17 sec per filing | ~$0.10/filing |
-| 5. Rank | <1 sec total | — |
+| 5. Rank + Chokepoints | <1 sec total | — |
 | 6. Digest (initial) | ~3-5 sec per filing | ~$0.025/filing |
 | 6. Digest (cached) | <1 sec total | — |
 
