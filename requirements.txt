@@ -1,11 +1,9 @@
-anthropic
-python-dotenv
+anthropic 
+python-dotenv 
 pydantic
 requests
-beautifulsoup4
-lxml
-yfinance
+beautifulsoup4 
+lxml 
+edgartools 
+yfinance 
 pandas
-numpy
-tqdm
-sec-edgar-downloader
