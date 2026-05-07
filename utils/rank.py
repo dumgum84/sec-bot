@@ -25,6 +25,10 @@ imprecision by being categorical. A filing is critical, notable, or quiet —
 the bot doesn't pretend to rank within a category beyond a simple "more
 triggers fired" tiebreaker. Use the digest's prose summaries for the
 qualitative differences within a tier.
+
+Chokepoint connectivity (from chokepoints.py) is applied as a secondary
+tiebreaker within each tier: filings that mention entities identified as
+cross-corpus structural dependencies surface first within their tier.
 """
 
 from __future__ import annotations
@@ -234,8 +238,9 @@ class FilingResult:
     accession: str
     cik: str
     primary_document: str
-    tier: str                          # "critical" | "notable" | "quiet"
+    tier: str                           # "critical" | "notable" | "quiet"
     triggers: list[str] = field(default_factory=list)
+    chokepoint_score: int = 0           # set by apply_chokepoint_scores after evaluation
 
 
 def _evaluate_filing(ticker: str, ext: dict, manifest_lookup: dict) -> FilingResult:
@@ -279,6 +284,39 @@ def _evaluate_filing(ticker: str, ext: dict, manifest_lookup: dict) -> FilingRes
         tier=tier,
         triggers=triggers,
     )
+
+
+# ---------------------------------------------------------------------------
+# Chokepoint scoring
+# ---------------------------------------------------------------------------
+
+def apply_chokepoint_scores(results: list[FilingResult], extractions: dict) -> None:
+    """
+    Compute chokepoint connectivity scores for each FilingResult and set them
+    in-place. Must be called after _evaluate_filing completes for all filings,
+    and before the final sort, so scores affect reading order within each tier.
+
+    Degrades gracefully if chokepoints.py is unavailable or errors: all scores
+    remain at their default of 0 and the ranking proceeds normally.
+    """
+    try:
+        from chokepoints import compute_chokepoints, compute_chokepoint_scores
+    except ImportError:
+        # chokepoints.py not present yet — not fatal, scores stay 0.
+        return
+
+    try:
+        cp = compute_chokepoints(extractions)
+        scores = compute_chokepoint_scores(extractions, cp)
+        assigned = 0
+        for r in results:
+            r.chokepoint_score = scores.get(r.ticker, 0)
+            if r.chokepoint_score > 0:
+                assigned += 1
+        if assigned:
+            print(f"[rank] Chokepoint scores applied: {assigned} filings have connectivity > 0")
+    except Exception as e:
+        print(f"[rank] Chokepoint scoring failed (non-fatal): {e}")
 
 
 # ---------------------------------------------------------------------------
@@ -333,10 +371,12 @@ TIER_ORDER = {"critical": 0, "notable": 1, "quiet": 2}
 
 def _sort_key(r: FilingResult):
     """
-    Sort: tier first (critical → notable → quiet), then trigger count
-    descending (more signals = read first), then alphabetical by ticker.
+    Sort: tier first (critical → notable → quiet), then chokepoint connectivity
+    descending (more cross-corpus connections = read first), then trigger count
+    descending (more signals = read first within same chokepoint score), then
+    alphabetical by ticker as final tiebreaker.
     """
-    return (TIER_ORDER[r.tier], -len(r.triggers), r.ticker)
+    return (TIER_ORDER[r.tier], -r.chokepoint_score, -len(r.triggers), r.ticker)
 
 
 # ---------------------------------------------------------------------------
@@ -390,7 +430,8 @@ def _print_tier(tier_name: str, results: list[FilingResult]) -> None:
 
     for i, r in enumerate(results, 1):
         n = len(r.triggers)
-        print(f"  {i:>3}. {r.ticker:<6}  {n} trigger{'s' if n != 1 else ''}")
+        cp_note = f"  [cp={r.chokepoint_score}]" if r.chokepoint_score > 0 else ""
+        print(f"  {i:>3}. {r.ticker:<6}  {n} trigger{'s' if n != 1 else ''}{cp_note}")
         for t in r.triggers:
             print(f"        - {t}")
         print()
@@ -437,6 +478,12 @@ def main():
     print()
 
     results = [_evaluate_filing(t, ext, manifest_lookup) for t, ext in extractions.items()]
+
+    # Apply chokepoint connectivity scores as a within-tier tiebreaker.
+    # This step is free (no LLM calls) and degrades gracefully if
+    # chokepoints.py is unavailable.
+    apply_chokepoint_scores(results, extractions)
+
     results.sort(key=_sort_key)
 
     # Persist full ranking to disk regardless of CLI filtering. This is the
