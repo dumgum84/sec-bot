@@ -24,7 +24,7 @@ Run:
     py sec_report.py --refresh        # ignore cache, re-pay all LLM calls
 
 Defaults match the standard "find under-followed opportunities" preset:
-    --seed sp1500 --min-mcap-b 0.5 --max-mcap-b 5
+    --seed sp1500 --min-mcap-b 0.3 --max-mcap-b 10
     --rank-by mcap-asc --top-n 500 --days 365
 
 The 365-day default is sized for a fresh first run. For monthly cadence
@@ -55,8 +55,8 @@ sys.path.insert(0, str(Path(__file__).parent / "utils"))
 # ---------------------------------------------------------------------------
 
 DEFAULT_SEED = "sp1500"
-DEFAULT_MIN_MCAP_B = 0.5
-DEFAULT_MAX_MCAP_B = 5.0
+DEFAULT_MIN_MCAP_B = 0.3
+DEFAULT_MAX_MCAP_B = 10.0
 DEFAULT_RANK_BY = "mcap-asc"
 DEFAULT_TOP_N = 500
 DEFAULT_DAYS = 365
@@ -231,7 +231,13 @@ def run_pipeline(args: argparse.Namespace) -> None:
         rank._evaluate_filing(t, ext, manifest_lookup)
         for t, ext in rank_extractions.items()
     ]
+
+    # Apply chokepoint connectivity scores as a within-tier tiebreaker.
+    # Free step — pure aggregation over data already in extractions.json.
+    rank.apply_chokepoint_scores(rank_results, rank_extractions)
+
     rank_results.sort(key=rank._sort_key)
+
     from dataclasses import asdict
     ranking_payload = {
         "ranked_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
