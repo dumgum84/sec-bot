@@ -202,7 +202,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     print(f"[extract] {len(targets)} ok-status filings to process "
           f"({sum(1 for t in targets if t.upper() in extractions and use_cache)} cached, "
           f"{sum(1 for t in targets if t.upper() not in extractions or not use_cache)} new)")
-    print(f"[extract] Each filing = 6 LLM calls (one per category)")
+    print(f"[extract] Each filing = 7 LLM calls (one per category)")
     print()
 
     for i, ticker in enumerate(targets, 1):
@@ -222,7 +222,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     print(f"[extract] Total extractions in file: {len(extractions)}")
 
     # ---------------------------------------------------------------------
-    _banner(5, total_stages, "RANK INTO TIERS")
+    _banner(5, total_stages, "RANK FILINGS")
     payload = json.loads(rank.EXTRACTIONS_PATH.read_text(encoding="utf-8"))
     rank_extractions = payload.get("extractions", {})
     manifest_lookup = rank._load_manifest_lookup()
@@ -236,24 +236,19 @@ def run_pipeline(args: argparse.Namespace) -> None:
     # Free step — pure aggregation over data already in extractions.json.
     rank.apply_chokepoint_scores(rank_results, rank_extractions)
 
-    rank_results.sort(key=rank._sort_key)
+    rank_results.sort(key=rank._make_sort_key(args.sort))
 
     from dataclasses import asdict
     ranking_payload = {
         "ranked_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
         "rules_version": rank.RULES_VERSION,
+        "sort_mode": args.sort,
         "filing_count": len(rank_results),
-        "summary": {
-            "critical_count": sum(1 for r in rank_results if r.tier == "critical"),
-            "notable_count": sum(1 for r in rank_results if r.tier == "notable"),
-            "quiet_count": sum(1 for r in rank_results if r.tier == "quiet"),
-        },
         "filings": [asdict(r) for r in rank_results],
     }
     rank.RANKING_PATH.parent.mkdir(parents=True, exist_ok=True)
     rank.RANKING_PATH.write_text(json.dumps(ranking_payload, indent=2), encoding="utf-8")
-    s = ranking_payload["summary"]
-    print(f"[rank] {s['critical_count']} critical | {s['notable_count']} notable | {s['quiet_count']} quiet")
+    print(f"[rank] {len(rank_results)} filings ranked, sort={args.sort}")
 
     # ---------------------------------------------------------------------
     _banner(6, total_stages, "GENERATE SEC REPORT")
@@ -312,6 +307,9 @@ def main():
                         help="Maximum number of tickers to include")
     parser.add_argument("--days", type=int, default=DEFAULT_DAYS,
                         help="Filing recency window")
+    parser.add_argument("--sort", default="ctmg",
+                        choices=("ctmg", "ctgm", "tcmg", "tcgm"),
+                        help="Sort order: c=chokepoint, t=trigger, m=margin, g=growth (default: ctmg)")
     parser.add_argument("--refresh", action="store_true",
                         help="Ignore caches; rebuild from scratch (expensive).")
     args = parser.parse_args()
