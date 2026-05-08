@@ -1,8 +1,8 @@
 # sec_bot
 
 A research bot that fetches SEC 10-K filings, extracts structured facts via
-LLM, groups them into priority tiers using deterministic rules, and produces
-a human-readable markdown report with research-note summaries per filing.
+LLM, ranks filings using deterministic rules, and produces a human-readable
+markdown report with research-note summaries per filing.
 
 ## Quick start
 
@@ -19,11 +19,12 @@ Default settings target under-followed small/mid-caps:
 | Flag | Default | Meaning |
 |---|---|---|
 | `--seed` | `sp1500` | S&P 500 + 400 + 600 |
-| `--min-mcap-b` | `0.5` | Minimum market cap ($B) |
-| `--max-mcap-b` | `5.0` | Maximum market cap ($B) |
+| `--min-mcap-b` | `0.3` | Minimum market cap ($B) |
+| `--max-mcap-b` | `10.0` | Maximum market cap ($B) |
 | `--rank-by` | `mcap-asc` | Sort direction within band |
 | `--top-n` | `500` | Maximum tickers in universe |
-| `--days` | `45` | Filing recency window |
+| `--days` | `365` | Filing recency window |
+| `--sort` | `ctmg` | Sort order: c=chokepoint, t=trigger, m=margin, g=growth |
 
 Override anything from the command line. Pass `--refresh` to ignore caches
 and rebuild from scratch (expensive — re-pays for all extraction/summary
@@ -32,7 +33,7 @@ LLM calls).
 ## One-time setup
 
 ```
-pip install requests beautifulsoup4 lxml edgartools yfinance pandas anthropic python-dotenv pydantic
+pip install anthropic python-dotenv pydantic requests beautifulsoup4 lxml edgartools yfinance pandas
 ```
 
 Create a `.env` file in the project root:
@@ -53,8 +54,8 @@ secbot_0.1.0/
 │   ├── universe.py          # ticker universe builder
 │   ├── watcher.py           # find recent 10-K filings
 │   ├── batch.py             # batch process the watch queue
-│   ├── extract.py           # LLM extraction (6 calls per filing)
-│   ├── rank.py              # tier-based ranking (rules in this file)
+│   ├── extract.py           # LLM extraction (7 calls per filing)
+│   ├── rank.py              # deterministic ranking (trigger rules in this file)
 │   ├── digest.py            # markdown report generator
 │   └── chokepoints.py       # cross-filing entity aggregation (no LLM cost)
 └── output/
@@ -85,11 +86,11 @@ sec_report.py
                   writes output/filings/<TICKER>/<accession>/
                   + output/data/run_manifest.json
    ↓
-4. extract.py     runs Claude Haiku 4.5 6× per filing,
+4. extract.py     runs Claude Haiku 4.5 7× per filing,
                   writes output/data/extractions.json   ← $$ API calls
    ↓
-5. rank.py        evaluates triggers, assigns critical/notable/quiet,
-                  applies chokepoint connectivity as within-tier tiebreaker,
+5. rank.py        evaluates trigger conditions, scores chokepoint connectivity
+                  and financial performance, sorts flat by --sort mode,
                   writes output/data/ranking.json
    ↓
 6. digest.py      writes one research note per filing,
@@ -97,7 +98,7 @@ sec_report.py
                   writes output/sec_report.md           ← $$ API calls
 ```
 
-Cost per full run from scratch (~500 filings): ~$50 in API spend, ~120
+Cost per full run from scratch (~500 filings): ~$60 in API spend, ~120
 minutes wall time. Repeat runs are much cheaper because filings and
 extractions are cached — only new tickers since the last run actually hit
 the API.
@@ -119,19 +120,16 @@ The output appears at the top of `sec_report.md` as a navigable index:
 ```
 ## Chokepoints across this run
 
-Vendors named by multiple filers:
-- Cintas — 4 filers ([KOP](#kop-notable), [ROCK](#rock-notable), ...)
-
 Customers named by multiple filers:
-- Walmart — 3 filers ([JBSS](#jbss-quiet), ...)
+- Walmart — 9 filers: FLO · FRPT · BRBR · SMPL · JBSS · CALM · ELF · PBH
 
 Competitors named by multiple filers:
-- Salesforce — 6 filers (...)
+- Medtronic — 8 filers: LIVN · MMSI · TNDM · ICUI · AORT · CNMD · INSP · HAE
+- Accenture — 7 filers: GDYN · ZD · CNXN · CSGS · NSIT · CNXC · MMS
 ```
 
-Each ticker in the list is a clickable link that jumps to that filing's
-entry below. Chokepoints also influence reading order within each tier:
-filings connected to more cross-corpus patterns surface first.
+Chokepoints influence reading order: filings connected to more cross-corpus
+patterns surface first in the ranked list.
 
 **No LLM calls. Free per run.** The chokepoint analysis only aggregates data
 already paid for during extraction. The signal compounds over time — more
@@ -147,10 +145,13 @@ python utils/chokepoints.py --min 2     # catch rarer patterns
 To tune which entities get filtered as noise, edit `_DENYLIST` and
 `_ALIASES` at the top of `utils/chokepoints.py`.
 
-## Tier definitions
+## Triggers
 
-A filing lands in **critical** if any of these triggers fire:
+Each filing is evaluated against a set of deterministic trigger conditions.
+Triggers fire when the filing crosses specific factual thresholds — no
+interpretation, no scoring weights.
 
+**Major triggers** (high-severity events):
 - Going concern language
 - Material weakness in internal controls
 - Restatement of prior-period financials
@@ -158,22 +159,29 @@ A filing lands in **critical** if any of these triggers fire:
 - Litigation with disclosed exposure of $100M or more
 - Regulatory action by DOJ / FDA / FTC / FERC / SEC / EPA / Department of Commerce
 
-A filing lands in **notable** if (it's not already critical and) any of
-these fire:
-
-- CEO change during fiscal year
-- CFO change during fiscal year
+**Minor triggers** (notable events):
+- CEO or CFO change during fiscal year
 - Auditor change during fiscal year
 - Impairment of $100M to $500M
-- Other regulatory action (non-significant agency)
+- Other regulatory action
 - Pending litigation without disclosed exposure
 - M&A activity worth $1B or more
 - Planned capex of $1B or more for next fiscal year
 
-A filing lands in **quiet** otherwise.
+## Sort order
 
-Within each tier, filings are ordered by: trigger count descending →
-chokepoint connectivity descending → ticker alphabetical.
+Filings are ranked flat (no tiers) using the `--sort` flag. Default is `ctmg`:
+
+| Code | Order |
+|---|---|
+| `ctmg` | chokepoint → trigger → margin → growth (default) |
+| `ctgm` | chokepoint → trigger → growth → margin |
+| `tcmg` | trigger → chokepoint → margin → growth |
+| `tcgm` | trigger → chokepoint → growth → margin |
+
+All four metrics sort descending (higher = earlier in the report). Financial
+metrics (`m` and `g`) come from the `financial_performance` extraction and
+default to 0 for filings that haven't been re-extracted yet.
 
 To tune triggers, edit the detector functions in `utils/rank.py`. After
 editing, re-run `py sec_report.py` — re-ranking is free, and the digest
@@ -191,7 +199,8 @@ actually new. The chokepoints corpus grows automatically with each run.
 Once you've done one full run, these things are essentially free to iterate
 on:
 
-- **Tier rules.** Edit `utils/rank.py`. Re-running re-ranks instantly.
+- **Trigger rules.** Edit `utils/rank.py`. Re-running re-ranks instantly.
+- **Sort order.** Pass `--sort ctmg/ctgm/tcmg/tcgm` to change ranking priority. Free to try.
 - **Digest layout / prompt.** Edit `utils/digest.py`. Add `--refresh` to
   regenerate all summaries (~$2-3 for a 500-filing run); without `--refresh`
   only new filings hit the API.
@@ -223,7 +232,7 @@ splitter's output.
 | 1. Universe (sp1500) | ~6 min | — |
 | 2. Watcher | ~1 min per 100 tickers | — |
 | 3. Batch | ~5-10 sec per filing | — |
-| 4. Extract | ~17 sec per filing | ~$0.10/filing |
+| 4. Extract | ~20 sec per filing | ~$0.12/filing |
 | 5. Rank + Chokepoints | <1 sec total | — |
 | 6. Digest (initial) | ~3-5 sec per filing | ~$0.025/filing |
 | 6. Digest (cached) | <1 sec total | — |
