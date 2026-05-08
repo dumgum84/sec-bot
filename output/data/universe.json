@@ -1,0 +1,3506 @@
+{
+  "generated_at": "2026-05-07T01:11:31",
+  "count": 500,
+  "entries": [
+    {
+      "ticker": "CABO",
+      "cik": "0001632127",
+      "company_name": "Cable One, Inc.",
+      "market_cap": 316091392.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VITL",
+      "cik": "0001579733",
+      "company_name": "Vital Farms, Inc.",
+      "market_cap": 514181472.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "IIIN",
+      "cik": "0000764401",
+      "company_name": "INSTEEL INDUSTRIES INC",
+      "market_cap": 519062048.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ETD",
+      "cik": "0000896156",
+      "company_name": "ETHAN ALLEN INTERIORS INC",
+      "market_cap": 521649984.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MNRO",
+      "cik": "0000876427",
+      "company_name": "MONRO, INC.",
+      "market_cap": 534049792.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AMSF",
+      "cik": "0001018979",
+      "company_name": "AMERISAFE INC",
+      "market_cap": 553631680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UHT",
+      "cik": "0000798783",
+      "company_name": "UNIVERSAL HEALTH REALTY INCOME TRUST",
+      "market_cap": 559740352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GDYN",
+      "cik": "0001743725",
+      "company_name": "GRID DYNAMICS HOLDINGS, INC.",
+      "market_cap": 565312128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AMWD",
+      "cik": "0000794619",
+      "company_name": "AMERICAN WOODMARK CORP",
+      "market_cap": 566174464.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GOGO",
+      "cik": "0001537054",
+      "company_name": "Gogo Inc.",
+      "market_cap": 581525696.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FWRD",
+      "cik": "0000912728",
+      "company_name": "FORWARD AIR CORP",
+      "market_cap": 595758400.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SSTK",
+      "cik": "0001549346",
+      "company_name": "Shutterstock, Inc.",
+      "market_cap": 605809856.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CLB",
+      "cik": "0001958086",
+      "company_name": "Core Laboratories Inc. /DE/",
+      "market_cap": 630141632.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CTKB",
+      "cik": "0001831915",
+      "company_name": "Cytek Biosciences, Inc.",
+      "market_cap": 637964352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WRLD",
+      "cik": "0000108385",
+      "company_name": "WORLD ACCEPTANCE CORP",
+      "market_cap": 670904960.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HSTM",
+      "cik": "0001095565",
+      "company_name": "HEALTHSTREAM INC",
+      "market_cap": 678418176.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OXM",
+      "cik": "0000075288",
+      "company_name": "OXFORD INDUSTRIES INC",
+      "market_cap": 678421248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CBRL",
+      "cik": "0001067294",
+      "company_name": "CRACKER BARREL OLD COUNTRY STORE, INC",
+      "market_cap": 686623424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HZO",
+      "cik": "0001057060",
+      "company_name": "MARINEMAX INC",
+      "market_cap": 688159552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RWT",
+      "cik": "0000930236",
+      "company_name": "REDWOOD TRUST INC",
+      "market_cap": 696333568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FBRT",
+      "cik": "0001562528",
+      "company_name": "Franklin BSP Realty Trust, Inc.",
+      "market_cap": 704211520.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SABR",
+      "cik": "0001597033",
+      "company_name": "Sabre Corp",
+      "market_cap": 723166912.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SCHL",
+      "cik": "0000866729",
+      "company_name": "SCHOLASTIC CORP",
+      "market_cap": 736322304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "QNST",
+      "cik": "0001117297",
+      "company_name": "QUINSTREET, INC",
+      "market_cap": 742061120.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "QDEL",
+      "cik": "0001906324",
+      "company_name": "QuidelOrtho Corp",
+      "market_cap": 747373248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EIG",
+      "cik": "0001379041",
+      "company_name": "Employers Holdings, Inc.",
+      "market_cap": 754527168.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FOXF",
+      "cik": "0001424929",
+      "company_name": "FOX FACTORY HOLDING CORP",
+      "market_cap": 762334528.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "APOG",
+      "cik": "0000006845",
+      "company_name": "APOGEE ENTERPRISES, INC.",
+      "market_cap": 773071424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CRSR",
+      "cik": "0001743759",
+      "company_name": "Corsair Gaming, Inc.",
+      "market_cap": 775946240.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GO",
+      "cik": "0001771515",
+      "company_name": "Grocery Outlet Holding Corp.",
+      "market_cap": 787424448.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ADAM",
+      "cik": "0001273685",
+      "company_name": "ADAMAS TRUST, INC.",
+      "market_cap": 793473536.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MTUS",
+      "cik": "0001598428",
+      "company_name": "Metallus Inc.",
+      "market_cap": 793842304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KOP",
+      "cik": "0001315257",
+      "company_name": "Koppers Holdings Inc.",
+      "market_cap": 804622080.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EGBN",
+      "cik": "0001050441",
+      "company_name": "EAGLE BANCORP INC",
+      "market_cap": 808413440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AMN",
+      "cik": "0001142750",
+      "company_name": "AMN HEALTHCARE SERVICES INC",
+      "market_cap": 810621440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRAA",
+      "cik": "0001185348",
+      "company_name": "PRA GROUP INC",
+      "market_cap": 812019520.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NAVI",
+      "cik": "0001593538",
+      "company_name": "NAVIENT CORP",
+      "market_cap": 820527552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CCOI",
+      "cik": "0001158324",
+      "company_name": "COGENT COMMUNICATIONS HOLDINGS, INC.",
+      "market_cap": 831038784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ASGN",
+      "cik": "0000890564",
+      "company_name": "Everforth Inc",
+      "market_cap": 833931008.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BJRI",
+      "cik": "0001013488",
+      "company_name": "BJs RESTAURANTS INC",
+      "market_cap": 841727808.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AZTA",
+      "cik": "0000933974",
+      "company_name": "Azenta, Inc.",
+      "market_cap": 847160320.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TRST",
+      "cik": "0000357301",
+      "company_name": "TRUSTCO BANK CORP N Y",
+      "market_cap": 861085056.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SMP",
+      "cik": "0000093389",
+      "company_name": "STANDARD MOTOR PRODUCTS, INC.",
+      "market_cap": 865596352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MATW",
+      "cik": "0000063296",
+      "company_name": "MATTHEWS INTERNATIONAL CORP",
+      "market_cap": 873709056.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UTL",
+      "cik": "0000755001",
+      "company_name": "UNITIL CORP",
+      "market_cap": 886587200.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SHEN",
+      "cik": "0000354963",
+      "company_name": "SHENANDOAH TELECOMMUNICATIONS CO/VA/",
+      "market_cap": 897322816.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SNCY",
+      "cik": "0001743907",
+      "company_name": "Sun Country Airlines Holdings, Inc.",
+      "market_cap": 897493312.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SCSC",
+      "cik": "0000918965",
+      "company_name": "SCANSOURCE, INC.",
+      "market_cap": 898106688.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WGO",
+      "cik": "0000107687",
+      "company_name": "WINNEBAGO INDUSTRIES INC",
+      "market_cap": 903091968.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HAFC",
+      "cik": "0001109242",
+      "company_name": "HANMI FINANCIAL CORP",
+      "market_cap": 905085440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CPF",
+      "cik": "0000701347",
+      "company_name": "CENTRAL PACIFIC FINANCIAL CORP",
+      "market_cap": 908844736.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NX",
+      "cik": "0001423221",
+      "company_name": "Quanex Building Products CORP",
+      "market_cap": 924280640.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "JBSS",
+      "cik": "0000880117",
+      "company_name": "SANFILIPPO JOHN B & SON INC",
+      "market_cap": 930957760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PCRX",
+      "cik": "0001396814",
+      "company_name": "Pacira BioSciences, Inc.",
+      "market_cap": 932152320.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "THRM",
+      "cik": "0000903129",
+      "company_name": "Gentherm Inc",
+      "market_cap": 946699264.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MSEX",
+      "cik": "0000066004",
+      "company_name": "MIDDLESEX WATER CO",
+      "market_cap": 952634432.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "JBGS",
+      "cik": "0001689796",
+      "company_name": "JBG SMITH Properties",
+      "market_cap": 958300352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VRTS",
+      "cik": "0000883237",
+      "company_name": "VIRTUS INVESTMENT PARTNERS, INC.",
+      "market_cap": 959601280.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CERT",
+      "cik": "0001827090",
+      "company_name": "Certara, Inc.",
+      "market_cap": 959814976.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PMT",
+      "cik": "0001464423",
+      "company_name": "PennyMac Mortgage Investment Trust",
+      "market_cap": 961841984.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "XNCR",
+      "cik": "0001326732",
+      "company_name": "Xencor Inc",
+      "market_cap": 964397184.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SDGR",
+      "cik": "0001490978",
+      "company_name": "Schrodinger, Inc.",
+      "market_cap": 969874880.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CFFN",
+      "cik": "0001490906",
+      "company_name": "Capitol Federal Financial, Inc.",
+      "market_cap": 973923712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VYX",
+      "cik": "0000070866",
+      "company_name": "NCR Voyix Corp",
+      "market_cap": 980868288.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MBC",
+      "cik": "0001941365",
+      "company_name": "MasterBrand, Inc.",
+      "market_cap": 985464960.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WSR",
+      "cik": "0001175535",
+      "company_name": "Whitestone REIT",
+      "market_cap": 985931328.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SBSI",
+      "cik": "0000705432",
+      "company_name": "SOUTHSIDE BANCSHARES INC",
+      "market_cap": 992814592.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NPK",
+      "cik": "0000080172",
+      "company_name": "NATIONAL PRESTO INDUSTRIES INC",
+      "market_cap": 996919552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NABL",
+      "cik": "0001834488",
+      "company_name": "N-able, Inc.",
+      "market_cap": 1000288704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HTLD",
+      "cik": "0000799233",
+      "company_name": "HEARTLAND EXPRESS INC",
+      "market_cap": 1014947712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EXPI",
+      "cik": "0001495932",
+      "company_name": "eXp World Holdings, Inc.",
+      "market_cap": 1038430080.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EPC",
+      "cik": "0001096752",
+      "company_name": "EDGEWELL PERSONAL CARE Co",
+      "market_cap": 1045984704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BLFS",
+      "cik": "0000834365",
+      "company_name": "BIOLIFE SOLUTIONS INC",
+      "market_cap": 1062648768.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AMPH",
+      "cik": "0001297184",
+      "company_name": "Amphastar Pharmaceuticals, Inc.",
+      "market_cap": 1064385920.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DFIN",
+      "cik": "0001669811",
+      "company_name": "Donnelley Financial Solutions, Inc.",
+      "market_cap": 1073492736.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SAFE",
+      "cik": "0001095651",
+      "company_name": "Safehold Inc.",
+      "market_cap": 1080594944.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LZ",
+      "cik": "0001286139",
+      "company_name": "LEGALZOOM.COM, INC.",
+      "market_cap": 1085641984.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TRUP",
+      "cik": "0001371285",
+      "company_name": "TRUPANION, INC.",
+      "market_cap": 1087022208.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LGIH",
+      "cik": "0001580670",
+      "company_name": "LGI Homes, Inc.",
+      "market_cap": 1087270656.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "IART",
+      "cik": "0000917520",
+      "company_name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+      "market_cap": 1089156608.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SAFT",
+      "cik": "0001172052",
+      "company_name": "SAFETY INSURANCE GROUP INC",
+      "market_cap": 1091013248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MLKN",
+      "cik": "0000066382",
+      "company_name": "MILLERKNOLL, INC.",
+      "market_cap": 1095363328.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NSP",
+      "cik": "0001000753",
+      "company_name": "INSPERITY, INC.",
+      "market_cap": 1097364096.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UFCS",
+      "cik": "0000101199",
+      "company_name": "UNITED FIRE GROUP INC",
+      "market_cap": 1103335424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MMI",
+      "cik": "0001578732",
+      "company_name": "Marcus & Millichap, Inc.",
+      "market_cap": 1104380928.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UPBD",
+      "cik": "0000933036",
+      "company_name": "UPBOUND GROUP, INC.",
+      "market_cap": 1108163840.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PZZA",
+      "cik": "0000901491",
+      "company_name": "PAPA JOHNS INTERNATIONAL INC",
+      "market_cap": 1111060992.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "USPH",
+      "cik": "0000885978",
+      "company_name": "U S PHYSICAL THERAPY INC /NV",
+      "market_cap": 1119783424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DEA",
+      "cik": "0001622194",
+      "company_name": "Easterly Government Properties, Inc.",
+      "market_cap": 1121030784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CNMD",
+      "cik": "0000816956",
+      "company_name": "CONMED Corp",
+      "market_cap": 1123675136.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ROCK",
+      "cik": "0000912562",
+      "company_name": "GIBRALTAR INDUSTRIES, INC.",
+      "market_cap": 1124149248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HFWA",
+      "cik": "0001046025",
+      "company_name": "HERITAGE FINANCIAL CORP /WA/",
+      "market_cap": 1132721408.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PFBC",
+      "cik": "0001492165",
+      "company_name": "Preferred Bank",
+      "market_cap": 1137766528.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LQDT",
+      "cik": "0001235468",
+      "company_name": "LIQUIDITY SERVICES INC",
+      "market_cap": 1154336640.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AVNS",
+      "cik": "0001606498",
+      "company_name": "AVANOS MEDICAL, INC.",
+      "market_cap": 1157508864.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NEO",
+      "cik": "0001077183",
+      "company_name": "NEOGENOMICS INC",
+      "market_cap": 1157582720.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SMPL",
+      "cik": "0001702744",
+      "company_name": "Simply Good Foods Co",
+      "market_cap": 1169225472.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRSU",
+      "cik": "0000884219",
+      "company_name": "Pursuit Attractions & Hospitality, Inc.",
+      "market_cap": 1174013952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BFS",
+      "cik": "0000907254",
+      "company_name": "SAUL CENTERS, INC.",
+      "market_cap": 1180507648.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "COLL",
+      "cik": "0001267565",
+      "company_name": "COLLEGIUM PHARMACEUTICAL, INC",
+      "market_cap": 1183178368.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRGS",
+      "cik": "0000876167",
+      "company_name": "PROGRESS SOFTWARE CORP /MA",
+      "market_cap": 1185775232.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LNN",
+      "cik": "0000836157",
+      "company_name": "LINDSAY CORP",
+      "market_cap": 1189114112.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CSR",
+      "cik": "0000798359",
+      "company_name": "CENTERSPACE",
+      "market_cap": 1190995456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DLX",
+      "cik": "0000027996",
+      "company_name": "DELUXE CORP",
+      "market_cap": 1198091776.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "XPEL",
+      "cik": "0001767258",
+      "company_name": "XPEL, Inc.",
+      "market_cap": 1199731840.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SCL",
+      "cik": "0000094049",
+      "company_name": "STEPAN CO",
+      "market_cap": 1200094208.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VSTS",
+      "cik": "0001967649",
+      "company_name": "Vestis Corp",
+      "market_cap": 1216569216.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ASTE",
+      "cik": "0000792987",
+      "company_name": "ASTEC INDUSTRIES INC",
+      "market_cap": 1228495616.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MRTN",
+      "cik": "0000799167",
+      "company_name": "MARTEN TRANSPORT LTD",
+      "market_cap": 1228732416.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TMP",
+      "cik": "0001005817",
+      "company_name": "TOMPKINS FINANCIAL CORP",
+      "market_cap": 1234343936.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TNDM",
+      "cik": "0001438133",
+      "company_name": "TANDEM DIABETES CARE INC",
+      "market_cap": 1235131392.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UPWK",
+      "cik": "0001627475",
+      "company_name": "UPWORK, INC",
+      "market_cap": 1244037504.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WEN",
+      "cik": "0000030697",
+      "company_name": "Wendy's Co",
+      "market_cap": 1266600576.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRA",
+      "cik": "0001127703",
+      "company_name": "PROASSURANCE CORP",
+      "market_cap": 1269550080.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VTOL",
+      "cik": "0001525221",
+      "company_name": "Bristow Group Inc.",
+      "market_cap": 1277786880.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TWO",
+      "cik": "0001465740",
+      "company_name": "TWO HARBORS INVESTMENT CORP.",
+      "market_cap": 1286817664.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BRBR",
+      "cik": "0001772016",
+      "company_name": "BELLRING BRANDS, INC.",
+      "market_cap": 1290684160.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "WABC",
+      "cik": "0000311094",
+      "company_name": "WESTAMERICA BANCORPORATION",
+      "market_cap": 1291906688.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ENR",
+      "cik": "0001632790",
+      "company_name": "ENERGIZER HOLDINGS, INC.",
+      "market_cap": 1298942080.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TRIP",
+      "cik": "0001526520",
+      "company_name": "TripAdvisor, Inc.",
+      "market_cap": 1300900992.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CXM",
+      "cik": "0001569345",
+      "company_name": "Sprinklr, Inc.",
+      "market_cap": 1306537856.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "INSP",
+      "cik": "0001609550",
+      "company_name": "Inspire Medical Systems, Inc.",
+      "market_cap": 1316761088.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HLIT",
+      "cik": "0000851310",
+      "company_name": "HARMONIC INC.",
+      "market_cap": 1321254784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WINA",
+      "cik": "0000908315",
+      "company_name": "WINMARK CORP",
+      "market_cap": 1329212160.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DFH",
+      "cik": "0001825088",
+      "company_name": "Dream Finders Homes, Inc.",
+      "market_cap": 1340994048.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UVV",
+      "cik": "0000102037",
+      "company_name": "UNIVERSAL CORP /VA/",
+      "market_cap": 1343376512.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GIII",
+      "cik": "0000821002",
+      "company_name": "G III APPAREL GROUP LTD /DE/",
+      "market_cap": 1347947776.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MAN",
+      "cik": "0000871763",
+      "company_name": "ManpowerGroup Inc.",
+      "market_cap": 1360752000.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CRI",
+      "cik": "0001060822",
+      "company_name": "CARTERS INC",
+      "market_cap": 1371929856.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DCH",
+      "cik": "0001062231",
+      "company_name": "Dauch Corp",
+      "market_cap": 1373131904.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SBH",
+      "cik": "0001368458",
+      "company_name": "Sally Beauty Holdings, Inc.",
+      "market_cap": 1373765632.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WKC",
+      "cik": "0000789460",
+      "company_name": "WORLD KINECT CORP",
+      "market_cap": 1376839680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "STAA",
+      "cik": "0000718937",
+      "company_name": "STAAR SURGICAL CO",
+      "market_cap": 1381625216.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OI",
+      "cik": "0000812074",
+      "company_name": "O-I Glass, Inc. /DE/",
+      "market_cap": 1393493120.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WWW",
+      "cik": "0000110471",
+      "company_name": "WOLVERINE WORLD WIDE INC /DE/",
+      "market_cap": 1414172288.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ENOV",
+      "cik": "0001420800",
+      "company_name": "Enovis CORP",
+      "market_cap": 1429845248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CNXC",
+      "cik": "0001803599",
+      "company_name": "Concentrix Corp",
+      "market_cap": 1447034368.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "HLX",
+      "cik": "0000866829",
+      "company_name": "HELIX ENERGY SOLUTIONS GROUP INC",
+      "market_cap": 1450866560.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ARI",
+      "cik": "0001467760",
+      "company_name": "Apollo Commercial Real Estate Finance, Inc.",
+      "market_cap": 1454704256.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRG",
+      "cik": "0001808834",
+      "company_name": "PROG Holdings, Inc.",
+      "market_cap": 1455982592.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LZB",
+      "cik": "0000057131",
+      "company_name": "LA-Z-BOY INC",
+      "market_cap": 1458976128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GSHD",
+      "cik": "0001726978",
+      "company_name": "Goosehead Insurance, Inc.",
+      "market_cap": 1462340736.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AOSL",
+      "cik": "0001387467",
+      "company_name": "ALPHA & OMEGA SEMICONDUCTOR Ltd",
+      "market_cap": 1468101504.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NSSC",
+      "cik": "0000069633",
+      "company_name": "NAPCO SECURITY TECHNOLOGIES, INC",
+      "market_cap": 1473395456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "JJSF",
+      "cik": "0000785956",
+      "company_name": "J&J SNACK FOODS CORP",
+      "market_cap": 1475111040.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ALGT",
+      "cik": "0001362468",
+      "company_name": "Allegiant Travel CO",
+      "market_cap": 1477343360.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FTRE",
+      "cik": "0001965040",
+      "company_name": "Fortrea Holdings Inc.",
+      "market_cap": 1479305216.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TNC",
+      "cik": "0000097134",
+      "company_name": "TENNANT CO",
+      "market_cap": 1486133248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HCSG",
+      "cik": "0000731012",
+      "company_name": "HEALTHCARE SERVICES GROUP INC",
+      "market_cap": 1514999936.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KW",
+      "cik": "0001408100",
+      "company_name": "Kennedy-Wilson Holdings, Inc.",
+      "market_cap": 1525370880.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PGNY",
+      "cik": "0001551306",
+      "company_name": "Progyny, Inc.",
+      "market_cap": 1531571840.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NXRT",
+      "cik": "0001620393",
+      "company_name": "NexPoint Residential Trust, Inc.",
+      "market_cap": 1538631040.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LEG",
+      "cik": "0000058492",
+      "company_name": "LEGGETT & PLATT INC",
+      "market_cap": 1550900352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LKFN",
+      "cik": "0000721994",
+      "company_name": "LAKELAND FINANCIAL CORP",
+      "market_cap": 1552614656.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AHCO",
+      "cik": "0001725255",
+      "company_name": "AdaptHealth Corp.",
+      "market_cap": 1553738368.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GBX",
+      "cik": "0000923120",
+      "company_name": "GREENBRIER COMPANIES INC",
+      "market_cap": 1558067584.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CCS",
+      "cik": "0001576940",
+      "company_name": "Century Communities, Inc.",
+      "market_cap": 1561310208.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "YELP",
+      "cik": "0001345016",
+      "company_name": "YELP INC",
+      "market_cap": 1580637696.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "REX",
+      "cik": "0000744187",
+      "company_name": "REX AMERICAN RESOURCES Corp",
+      "market_cap": 1581669248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ARLO",
+      "cik": "0001736946",
+      "company_name": "Arlo Technologies, Inc.",
+      "market_cap": 1587532800.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NVRI",
+      "cik": "0000045876",
+      "company_name": "ENVIRI Corp",
+      "market_cap": 1591255680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TFIN",
+      "cik": "0001539638",
+      "company_name": "Triumph Financial, Inc.",
+      "market_cap": 1600256256.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HOPE",
+      "cik": "0001128361",
+      "company_name": "HOPE BANCORP INC",
+      "market_cap": 1614400512.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "STBA",
+      "cik": "0000719220",
+      "company_name": "S&T BANCORP INC",
+      "market_cap": 1615004800.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KSS",
+      "cik": "0000885639",
+      "company_name": "KOHLS Corp",
+      "market_cap": 1617567872.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BLKB",
+      "cik": "0001280058",
+      "company_name": "BLACKBAUD INC",
+      "market_cap": 1622321920.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "TILE",
+      "cik": "0000715787",
+      "company_name": "INTERFACE INC",
+      "market_cap": 1627248512.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CNXN",
+      "cik": "0001050377",
+      "company_name": "PC CONNECTION INC",
+      "market_cap": 1634395648.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RES",
+      "cik": "0000742278",
+      "company_name": "RPC INC",
+      "market_cap": 1635697792.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "XHR",
+      "cik": "0001616000",
+      "company_name": "Xenia Hotels & Resorts, Inc.",
+      "market_cap": 1636335616.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AAT",
+      "cik": "0001500217",
+      "company_name": "American Assets Trust, Inc.",
+      "market_cap": 1639106304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRLB",
+      "cik": "0001443669",
+      "company_name": "Proto Labs Inc",
+      "market_cap": 1639171712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PAYO",
+      "cik": "0001845815",
+      "company_name": "Payoneer Global Inc.",
+      "market_cap": 1639335168.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DCOM",
+      "cik": "0000846617",
+      "company_name": "Dime Community Bancshares, Inc. /NY/",
+      "market_cap": 1640580736.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ZD",
+      "cik": "0001084048",
+      "company_name": "ZIFF DAVIS, INC.",
+      "market_cap": 1652722816.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PEB",
+      "cik": "0001474098",
+      "company_name": "Pebblebrook Hotel Trust",
+      "market_cap": 1654057088.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VIR",
+      "cik": "0001706431",
+      "company_name": "Vir Biotechnology, Inc.",
+      "market_cap": 1659098496.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "IIPR",
+      "cik": "0001677576",
+      "company_name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+      "market_cap": 1660286976.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "INVA",
+      "cik": "0001080014",
+      "company_name": "Innoviva, Inc.",
+      "market_cap": 1667636608.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LPG",
+      "cik": "0001596993",
+      "company_name": "DORIAN LPG LTD.",
+      "market_cap": 1669157248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AORT",
+      "cik": "0000784199",
+      "company_name": "ARTIVION, INC.",
+      "market_cap": 1684265728.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UFPT",
+      "cik": "0000914156",
+      "company_name": "UFP TECHNOLOGIES INC",
+      "market_cap": 1688200064.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EFC",
+      "cik": "0001411342",
+      "company_name": "Ellington Financial Inc.",
+      "market_cap": 1691487232.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRGO",
+      "cik": "0001585364",
+      "company_name": "PERRIGO Co plc",
+      "market_cap": 1693106048.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRKS",
+      "cik": "0001564902",
+      "company_name": "United Parks & Resorts Inc.",
+      "market_cap": 1709539968.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CTS",
+      "cik": "0000026058",
+      "company_name": "CTS CORP",
+      "market_cap": 1715574656.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AIN",
+      "cik": "0000819793",
+      "company_name": "ALBANY INTERNATIONAL CORP /DE/",
+      "market_cap": 1724265344.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ABR",
+      "cik": "0001253986",
+      "company_name": "ARBOR REALTY TRUST INC",
+      "market_cap": 1728722432.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CHCO",
+      "cik": "0000726854",
+      "company_name": "CITY HOLDING CO",
+      "market_cap": 1735088512.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EVTC",
+      "cik": "0001559865",
+      "company_name": "EVERTEC, Inc.",
+      "market_cap": 1735228928.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ADNT",
+      "cik": "0001670541",
+      "company_name": "Adient plc",
+      "market_cap": 1749888000.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SONO",
+      "cik": "0001314727",
+      "company_name": "Sonos Inc",
+      "market_cap": 1758339200.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BL",
+      "cik": "0001666134",
+      "company_name": "BLACKLINE, INC.",
+      "market_cap": 1760045056.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SLVM",
+      "cik": "0001856485",
+      "company_name": "Sylvamo Corp",
+      "market_cap": 1781336960.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FDP",
+      "cik": "0001047340",
+      "company_name": "FRESH DEL MONTE PRODUCE INC",
+      "market_cap": 1784122752.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "STRA",
+      "cik": "0001013934",
+      "company_name": "Strategic Education, Inc.",
+      "market_cap": 1786154240.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ADUS",
+      "cik": "0001468328",
+      "company_name": "Addus HomeCare Corp",
+      "market_cap": 1803763968.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DV",
+      "cik": "0001819928",
+      "company_name": "DoubleVerify Holdings, Inc.",
+      "market_cap": 1806165760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ECPG",
+      "cik": "0001084961",
+      "company_name": "ENCORE CAPITAL GROUP INC",
+      "market_cap": 1808791424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EYE",
+      "cik": "0001710155",
+      "company_name": "National Vision Holdings, Inc.",
+      "market_cap": 1816221056.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MD",
+      "cik": "0000893949",
+      "company_name": "Pediatrix Medical Group, Inc.",
+      "market_cap": 1823927552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WD",
+      "cik": "0001497770",
+      "company_name": "Walker & Dunlop, Inc.",
+      "market_cap": 1824319360.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FLO",
+      "cik": "0001128928",
+      "company_name": "FLOWERS FOODS INC",
+      "market_cap": 1826202752.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "HMN",
+      "cik": "0000850141",
+      "company_name": "HORACE MANN EDUCATORS CORP /DE/",
+      "market_cap": 1843400576.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FMC",
+      "cik": "0000037785",
+      "company_name": "FMC CORP",
+      "market_cap": 1849420032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CASH",
+      "cik": "0000907471",
+      "company_name": "PATHWARD FINANCIAL, INC.",
+      "market_cap": 1862533632.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "INVX",
+      "cik": "0001042893",
+      "company_name": "Innovex International, Inc.",
+      "market_cap": 1865450112.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VCEL",
+      "cik": "0000887359",
+      "company_name": "Vericel Corp",
+      "market_cap": 1873264128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RAMP",
+      "cik": "0000733269",
+      "company_name": "LiveRamp Holdings, Inc.",
+      "market_cap": 1873821952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "JBLU",
+      "cik": "0001158463",
+      "company_name": "JETBLUE AIRWAYS CORP",
+      "market_cap": 1874975104.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EPAC",
+      "cik": "0000006955",
+      "company_name": "ENERPAC TOOL GROUP CORP",
+      "market_cap": 1887808384.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FCF",
+      "cik": "0000712537",
+      "company_name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/",
+      "market_cap": 1890224256.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HRMY",
+      "cik": "0001802665",
+      "company_name": "Harmony Biosciences Holdings, Inc.",
+      "market_cap": 1896892928.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LTC",
+      "cik": "0000887905",
+      "company_name": "LTC PROPERTIES INC",
+      "market_cap": 1904547328.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SHO",
+      "cik": "0001295810",
+      "company_name": "Sunstone Hotel Investors, Inc.",
+      "market_cap": 1909485440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ANIP",
+      "cik": "0001023024",
+      "company_name": "ANI PHARMACEUTICALS INC",
+      "market_cap": 1912381568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GNL",
+      "cik": "0001526113",
+      "company_name": "Global Net Lease, Inc.",
+      "market_cap": 1913740928.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ATEN",
+      "cik": "0001580808",
+      "company_name": "A10 Networks, Inc.",
+      "market_cap": 1917400448.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PDFS",
+      "cik": "0001120914",
+      "company_name": "PDF SOLUTIONS INC",
+      "market_cap": 1919626368.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NBHC",
+      "cik": "0001475841",
+      "company_name": "National Bank Holdings Corp",
+      "market_cap": 1919988608.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "STEL",
+      "cik": "0001473844",
+      "company_name": "Stellar Bancorp, Inc.",
+      "market_cap": 1923783808.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KMPR",
+      "cik": "0000860748",
+      "company_name": "KEMPER Corp",
+      "market_cap": 1926723456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AGYS",
+      "cik": "0000078749",
+      "company_name": "AGILYSYS INC",
+      "market_cap": 1927101440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "IOSP",
+      "cik": "0001054905",
+      "company_name": "INNOSPEC INC.",
+      "market_cap": 1933242624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VRE",
+      "cik": "0000924901",
+      "company_name": "Veris Residential, Inc.",
+      "market_cap": 1939686144.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OFG",
+      "cik": "0001030469",
+      "company_name": "OFG BANCORP",
+      "market_cap": 1942131712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DXC",
+      "cik": "0001688568",
+      "company_name": "DXC Technology Co",
+      "market_cap": 1947146880.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NWL",
+      "cik": "0000814453",
+      "company_name": "NEWELL BRANDS INC.",
+      "market_cap": 1963166336.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ASTH",
+      "cik": "0001083446",
+      "company_name": "Astrana Health, Inc.",
+      "market_cap": 1963901952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HCI",
+      "cik": "0001400810",
+      "company_name": "HCI Group, Inc.",
+      "market_cap": 1977527808.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GTM",
+      "cik": "0001794515",
+      "company_name": "ZoomInfo Technologies Inc.",
+      "market_cap": 1984415232.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OMCL",
+      "cik": "0000926326",
+      "company_name": "OMNICELL, INC.",
+      "market_cap": 1990086528.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NEOG",
+      "cik": "0000711377",
+      "company_name": "NEOGEN CORP",
+      "market_cap": 1998238592.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GTY",
+      "cik": "0001052752",
+      "company_name": "GETTY REALTY CORP /MD/",
+      "market_cap": 2000249344.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FUN",
+      "cik": "0001999001",
+      "company_name": "Six Flags Entertainment Corporation/NEW",
+      "market_cap": 2008134784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SEM",
+      "cik": "0001320414",
+      "company_name": "SELECT MEDICAL HOLDINGS CORP",
+      "market_cap": 2037596032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HTZ",
+      "cik": "0001657853",
+      "company_name": "HERTZ GLOBAL HOLDINGS, INC",
+      "market_cap": 2041543552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NWN",
+      "cik": "0001733998",
+      "company_name": "Northwest Natural Holding Co",
+      "market_cap": 2047613184.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PENG",
+      "cik": "0001616533",
+      "company_name": "Penguin Solutions, Inc.",
+      "market_cap": 2049320576.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SPSC",
+      "cik": "0001092699",
+      "company_name": "SPS COMMERCE INC",
+      "market_cap": 2051138688.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NWBI",
+      "cik": "0001471265",
+      "company_name": "Northwest Bancshares, Inc.",
+      "market_cap": 2059932544.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EZPW",
+      "cik": "0000876523",
+      "company_name": "EZCORP INC",
+      "market_cap": 2063155072.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ALG",
+      "cik": "0000897077",
+      "company_name": "ALAMO GROUP INC",
+      "market_cap": 2078961536.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WLY",
+      "cik": "0000107140",
+      "company_name": "JOHN WILEY & SONS, INC.",
+      "market_cap": 2087306112.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MCRI",
+      "cik": "0000907242",
+      "company_name": "MONARCH CASINO & RESORT INC",
+      "market_cap": 2087875456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GT",
+      "cik": "0000042582",
+      "company_name": "GOODYEAR TIRE & RUBBER CO /OH/",
+      "market_cap": 2091575936.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "CXW",
+      "cik": "0001070985",
+      "company_name": "CoreCivic, Inc.",
+      "market_cap": 2093433216.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NSIT",
+      "cik": "0000932696",
+      "company_name": "INSIGHT ENTERPRISES INC",
+      "market_cap": 2095274240.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CENTA",
+      "cik": "0000887733",
+      "company_name": "CENTRAL GARDEN & PET CO",
+      "market_cap": 2095922048.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "STC",
+      "cik": "0000094344",
+      "company_name": "STEWART INFORMATION SERVICES CORP",
+      "market_cap": 2099020672.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WS",
+      "cik": "0001968487",
+      "company_name": "Worthington Steel, Inc.",
+      "market_cap": 2127769344.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRDO",
+      "cik": "0001046568",
+      "company_name": "PERDOCEO EDUCATION Corp",
+      "market_cap": 2138744960.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MBIN",
+      "cik": "0001629019",
+      "company_name": "Merchants Bancorp",
+      "market_cap": 2143805440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SAM",
+      "cik": "0000949870",
+      "company_name": "BOSTON BEER CO INC",
+      "market_cap": 2148918016.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "ARR",
+      "cik": "0001428205",
+      "company_name": "Armour Residential REIT, Inc.",
+      "market_cap": 2162123776.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VRRM",
+      "cik": "0001682745",
+      "company_name": "VERRA MOBILITY Corp",
+      "market_cap": 2175300864.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WERN",
+      "cik": "0000793074",
+      "company_name": "WERNER ENTERPRISES INC",
+      "market_cap": 2182184192.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DRH",
+      "cik": "0001298946",
+      "company_name": "DiamondRock Hospitality Co",
+      "market_cap": 2190273792.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PLUS",
+      "cik": "0001022408",
+      "company_name": "EPLUS INC",
+      "market_cap": 2206324224.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DGII",
+      "cik": "0000854775",
+      "company_name": "DIGI INTERNATIONAL INC",
+      "market_cap": 2213416704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HTH",
+      "cik": "0001265131",
+      "company_name": "Hilltop Holdings Inc.",
+      "market_cap": 2231171072.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "XRAY",
+      "cik": "0000818479",
+      "company_name": "DENTSPLY SIRONA Inc.",
+      "market_cap": 2231639296.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "PENN",
+      "cik": "0000921738",
+      "company_name": "PENN Entertainment, Inc.",
+      "market_cap": 2241876480.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ALRM",
+      "cik": "0001459200",
+      "company_name": "Alarm.com Holdings, Inc.",
+      "market_cap": 2244694272.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PBI",
+      "cik": "0000078814",
+      "company_name": "PITNEY BOWES INC /DE/",
+      "market_cap": 2247038464.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BANR",
+      "cik": "0000946673",
+      "company_name": "BANNER CORP",
+      "market_cap": 2249697024.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PK",
+      "cik": "0001617406",
+      "company_name": "Park Hotels & Resorts Inc.",
+      "market_cap": 2259279872.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "CSGS",
+      "cik": "0001005757",
+      "company_name": "CSG SYSTEMS INTERNATIONAL INC",
+      "market_cap": 2290485504.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CENT",
+      "cik": "0000887733",
+      "company_name": "CENTRAL GARDEN & PET CO",
+      "market_cap": 2293309952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AESI",
+      "cik": "0001984060",
+      "company_name": "Atlas Energy Solutions Inc.",
+      "market_cap": 2297013504.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CPRI",
+      "cik": "0001530721",
+      "company_name": "Capri Holdings Ltd",
+      "market_cap": 2298632448.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "MCW",
+      "cik": "0001853513",
+      "company_name": "Mister Car Wash, Inc.",
+      "market_cap": 2318706432.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ANDE",
+      "cik": "0000821026",
+      "company_name": "Andersons, Inc.",
+      "market_cap": 2323467520.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ACHC",
+      "cik": "0001520697",
+      "company_name": "Acadia Healthcare Company, Inc.",
+      "market_cap": 2326765568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "COTY",
+      "cik": "0001024305",
+      "company_name": "COTY INC.",
+      "market_cap": 2333236224.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "COHU",
+      "cik": "0000021535",
+      "company_name": "COHU INC",
+      "market_cap": 2340840704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ADMA",
+      "cik": "0001368514",
+      "company_name": "ADMA BIOLOGICS, INC.",
+      "market_cap": 2341828864.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NBTB",
+      "cik": "0000790359",
+      "company_name": "NBT BANCORP INC",
+      "market_cap": 2359639552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PAHC",
+      "cik": "0001069899",
+      "company_name": "PHIBRO ANIMAL HEALTH CORP",
+      "market_cap": 2371280896.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ABM",
+      "cik": "0000771497",
+      "company_name": "ABM INDUSTRIES INC /DE/",
+      "market_cap": 2378773760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HNI",
+      "cik": "0000048287",
+      "company_name": "HNI CORP",
+      "market_cap": 2396644096.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HTO",
+      "cik": "0000766829",
+      "company_name": "H2O AMERICA",
+      "market_cap": 2409998336.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AAMI",
+      "cik": "0001748824",
+      "company_name": "Acadian Asset Management Inc.",
+      "market_cap": 2418852096.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BBT",
+      "cik": "0001108134",
+      "company_name": "Beacon Financial Corp",
+      "market_cap": 2424197120.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SRPT",
+      "cik": "0000873303",
+      "company_name": "Sarepta Therapeutics, Inc.",
+      "market_cap": 2431303424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FBNC",
+      "cik": "0000811589",
+      "company_name": "FIRST BANCORP /NC/",
+      "market_cap": 2444850176.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HAE",
+      "cik": "0000313143",
+      "company_name": "HAEMONETICS CORP",
+      "market_cap": 2447645952.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "MTX",
+      "cik": "0000891014",
+      "company_name": "MINERALS TECHNOLOGIES INC",
+      "market_cap": 2458682624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KWR",
+      "cik": "0000081362",
+      "company_name": "QUAKER CHEMICAL CORP",
+      "market_cap": 2463603712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SEDG",
+      "cik": "0001419612",
+      "company_name": "SOLAREDGE TECHNOLOGIES, INC.",
+      "market_cap": 2469816064.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DEI",
+      "cik": "0001364250",
+      "company_name": "Douglas Emmett Inc",
+      "market_cap": 2470330624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RH",
+      "cik": "0001528849",
+      "company_name": "RH",
+      "market_cap": 2489798144.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "SAH",
+      "cik": "0001043509",
+      "company_name": "SONIC AUTOMOTIVE INC",
+      "market_cap": 2496724224.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ASH",
+      "cik": "0001674862",
+      "company_name": "ASHLAND INC.",
+      "market_cap": 2499554816.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "ROG",
+      "cik": "0000084748",
+      "company_name": "ROGERS CORP",
+      "market_cap": 2509325568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DNOW",
+      "cik": "0001599617",
+      "company_name": "DNOW Inc.",
+      "market_cap": 2509926912.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TALO",
+      "cik": "0001724965",
+      "company_name": "TALOS ENERGY INC.",
+      "market_cap": 2512233728.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AMR",
+      "cik": "0001704715",
+      "company_name": "Alpha Metallurgical Resources, Inc.",
+      "market_cap": 2514346752.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LMAT",
+      "cik": "0001158895",
+      "company_name": "LEMAITRE VASCULAR INC",
+      "market_cap": 2518608640.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ICHR",
+      "cik": "0001652535",
+      "company_name": "ICHOR HOLDINGS, LTD.",
+      "market_cap": 2519745280.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TMDX",
+      "cik": "0001756262",
+      "company_name": "TransMedics Group, Inc.",
+      "market_cap": 2520181760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TBBK",
+      "cik": "0001295401",
+      "company_name": "Bancorp, Inc.",
+      "market_cap": 2552304896.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NTCT",
+      "cik": "0001078075",
+      "company_name": "NETSCOUT SYSTEMS INC",
+      "market_cap": 2565266944.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PBH",
+      "cik": "0001295947",
+      "company_name": "Prestige Consumer Healthcare Inc.",
+      "market_cap": 2569880064.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OSW",
+      "cik": "0001758488",
+      "company_name": "ONESPAWORLD HOLDINGS Ltd",
+      "market_cap": 2570355968.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CWT",
+      "cik": "0001035201",
+      "company_name": "CALIFORNIA WATER SERVICE GROUP",
+      "market_cap": 2575485952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BCC",
+      "cik": "0001328581",
+      "company_name": "BOISE CASCADE Co",
+      "market_cap": 2612485888.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NOG",
+      "cik": "0001104485",
+      "company_name": "NORTHERN OIL & GAS, INC.",
+      "market_cap": 2616214272.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CXT",
+      "cik": "0000025445",
+      "company_name": "Crane NXT, Co.",
+      "market_cap": 2626577408.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "WAFD",
+      "cik": "0000936528",
+      "company_name": "WAFD INC",
+      "market_cap": 2633385472.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CUBI",
+      "cik": "0001488813",
+      "company_name": "Customers Bancorp, Inc.",
+      "market_cap": 2635196928.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TRMK",
+      "cik": "0000036146",
+      "company_name": "TRUSTMARK CORP",
+      "market_cap": 2635600128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HE",
+      "cik": "0000354707",
+      "company_name": "HAWAIIAN ELECTRIC INDUSTRIES INC",
+      "market_cap": 2637872128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NHC",
+      "cik": "0001047335",
+      "company_name": "NATIONAL HEALTHCARE CORP",
+      "market_cap": 2642634496.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HUBG",
+      "cik": "0000940942",
+      "company_name": "Hub Group, Inc.",
+      "market_cap": 2643666176.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EEFT",
+      "cik": "0001029199",
+      "company_name": "EURONET WORLDWIDE, INC.",
+      "market_cap": 2645098496.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "UA",
+      "cik": "0001336917",
+      "company_name": "Under Armour, Inc.",
+      "market_cap": 2661812480.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HOG",
+      "cik": "0000793952",
+      "company_name": "HARLEY-DAVIDSON, INC.",
+      "market_cap": 2666517248.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "RHI",
+      "cik": "0000315213",
+      "company_name": "ROBERT HALF INC.",
+      "market_cap": 2677023232.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "APAM",
+      "cik": "0001517302",
+      "company_name": "Artisan Partners Asset Management Inc.",
+      "market_cap": 2686384896.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VAC",
+      "cik": "0001524358",
+      "company_name": "MARRIOTT VACATIONS WORLDWIDE Corp",
+      "market_cap": 2687688192.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CALY",
+      "cik": "0000837465",
+      "company_name": "Callaway Golf Co",
+      "market_cap": 2689606144.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FRPT",
+      "cik": "0001611647",
+      "company_name": "Freshpet, Inc.",
+      "market_cap": 2699152128.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ARCB",
+      "cik": "0000894405",
+      "company_name": "ARCBEST CORP /DE/",
+      "market_cap": 2712173568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SPNT",
+      "cik": "0001576018",
+      "company_name": "SiriusPoint Ltd",
+      "market_cap": 2723516672.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NGVT",
+      "cik": "0001653477",
+      "company_name": "Ingevity Corp",
+      "market_cap": 2742778880.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UNIT",
+      "cik": "0002020795",
+      "company_name": "Uniti Group Inc.",
+      "market_cap": 2749498112.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UAA",
+      "cik": "0001336917",
+      "company_name": "Under Armour, Inc.",
+      "market_cap": 2751249408.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DBD",
+      "cik": "0000028823",
+      "company_name": "DIEBOLD NIXDORF, Inc",
+      "market_cap": 2753996032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WOR",
+      "cik": "0000108516",
+      "company_name": "WORTHINGTON ENTERPRISES, INC.",
+      "market_cap": 2769654016.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FCPT",
+      "cik": "0001650132",
+      "company_name": "Four Corners Property Trust, Inc.",
+      "market_cap": 2788727040.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FBK",
+      "cik": "0001649749",
+      "company_name": "FB Financial Corp",
+      "market_cap": 2797208832.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WU",
+      "cik": "0001365135",
+      "company_name": "Western Union CO",
+      "market_cap": 2808791552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BKE",
+      "cik": "0000885245",
+      "company_name": "BUCKLE INC",
+      "market_cap": 2810311680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DXPE",
+      "cik": "0001020710",
+      "company_name": "DXP ENTERPRISES INC",
+      "market_cap": 2814369024.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AEO",
+      "cik": "0000919012",
+      "company_name": "AMERICAN EAGLE OUTFITTERS INC",
+      "market_cap": 2818468352.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LGND",
+      "cik": "0000886163",
+      "company_name": "LIGAND PHARMACEUTICALS INC",
+      "market_cap": 2820693248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CALX",
+      "cik": "0001406666",
+      "company_name": "CALIX, INC",
+      "market_cap": 2828107264.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CRVL",
+      "cik": "0000874866",
+      "company_name": "CORVEL CORP",
+      "market_cap": 2837287680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WDFC",
+      "cik": "0000105132",
+      "company_name": "WD 40 CO",
+      "market_cap": 2837475328.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LCII",
+      "cik": "0000763744",
+      "company_name": "LCI INDUSTRIES",
+      "market_cap": 2840154368.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LFST",
+      "cik": "0001845257",
+      "company_name": "LifeStance Health Group, Inc.",
+      "market_cap": 2854411776.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TDC",
+      "cik": "0000816761",
+      "company_name": "TERADATA CORP /DE/",
+      "market_cap": 2862380800.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TRN",
+      "cik": "0000099780",
+      "company_name": "TRINITY INDUSTRIES INC",
+      "market_cap": 2882074624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GRBK",
+      "cik": "0001373670",
+      "company_name": "Green Brick Partners, Inc.",
+      "market_cap": 2883034624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SEZL",
+      "cik": "0001662991",
+      "company_name": "Sezzle Inc.",
+      "market_cap": 2892424192.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HIW",
+      "cik": "0000921082",
+      "company_name": "HIGHWOODS PROPERTIES, INC.",
+      "market_cap": 2900018432.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PHIN",
+      "cik": "0001968915",
+      "company_name": "PHINIA INC.",
+      "market_cap": 2900931072.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WT",
+      "cik": "0000880631",
+      "company_name": "WisdomTree, Inc.",
+      "market_cap": 2905457408.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KN",
+      "cik": "0001587523",
+      "company_name": "Knowles Corp",
+      "market_cap": 2905639680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NMIH",
+      "cik": "0001547903",
+      "company_name": "NMI Holdings, Inc.",
+      "market_cap": 2905924608.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CURB",
+      "cik": "0002027317",
+      "company_name": "Curbline Properties Corp.",
+      "market_cap": 2919218176.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SHOO",
+      "cik": "0000913241",
+      "company_name": "STEVEN MADDEN, LTD.",
+      "market_cap": 2923074304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UE",
+      "cik": "0001611547",
+      "company_name": "Urban Edge Properties",
+      "market_cap": 2927319808.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ITGR",
+      "cik": "0001114483",
+      "company_name": "Integer Holdings Corp",
+      "market_cap": 2929963264.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CON",
+      "cik": "0002014596",
+      "company_name": "Concentra Group Holdings Parent, Inc.",
+      "market_cap": 2932536320.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PLMR",
+      "cik": "0001761312",
+      "company_name": "Palomar Holdings, Inc.",
+      "market_cap": 2936327424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VGNT",
+      "cik": "0002078008",
+      "company_name": "Versigent PLC",
+      "market_cap": 2945589760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PFS",
+      "cik": "0001178970",
+      "company_name": "PROVIDENT FINANCIAL SERVICES INC",
+      "market_cap": 2947652864.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KALU",
+      "cik": "0000811596",
+      "company_name": "KAISER ALUMINUM CORP",
+      "market_cap": 2948172032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KD",
+      "cik": "0001867072",
+      "company_name": "Kyndryl Holdings, Inc.",
+      "market_cap": 2957867264.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "GEO",
+      "cik": "0000923796",
+      "company_name": "GEO GROUP INC",
+      "market_cap": 2968140032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MGEE",
+      "cik": "0001161728",
+      "company_name": "MGE ENERGY INC",
+      "market_cap": 2969919232.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AWR",
+      "cik": "0001056903",
+      "company_name": "AMERICAN STATES WATER CO",
+      "market_cap": 2972927744.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SUPN",
+      "cik": "0001356576",
+      "company_name": "SUPERNUS PHARMACEUTICALS, INC.",
+      "market_cap": 2986143744.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ICUI",
+      "cik": "0000883984",
+      "company_name": "ICU MEDICAL INC/DE",
+      "market_cap": 2988839680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BANC",
+      "cik": "0001169770",
+      "company_name": "BANC OF CALIFORNIA, INC.",
+      "market_cap": 3000396032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CAKE",
+      "cik": "0000887596",
+      "company_name": "CHEESECAKE FACTORY INC",
+      "market_cap": 3011926784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRVA",
+      "cik": "0001759655",
+      "company_name": "Privia Health Group, Inc.",
+      "market_cap": 3013743360.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CPK",
+      "cik": "0000019745",
+      "company_name": "CHESAPEAKE UTILITIES CORP",
+      "market_cap": 3018566656.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RUN",
+      "cik": "0001469367",
+      "company_name": "Sunrun Inc.",
+      "market_cap": 3021614336.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VC",
+      "cik": "0001111335",
+      "company_name": "VISTEON CORP",
+      "market_cap": 3035643904.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "IPAR",
+      "cik": "0000822663",
+      "company_name": "INTERPARFUMS INC",
+      "market_cap": 3036364032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BTU",
+      "cik": "0001064728",
+      "company_name": "PEABODY ENERGY CORP",
+      "market_cap": 3040977408.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SBCF",
+      "cik": "0000730708",
+      "company_name": "SEACOAST BANKING CORP OF FLORIDA",
+      "market_cap": 3062774528.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PLAB",
+      "cik": "0000810136",
+      "company_name": "PHOTRONICS INC",
+      "market_cap": 3071559424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "EXTR",
+      "cik": "0001078271",
+      "company_name": "EXTREME NETWORKS INC",
+      "market_cap": 3078516224.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LXP",
+      "cik": "0000910108",
+      "company_name": "LXP Industrial Trust",
+      "market_cap": 3080268800.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PARR",
+      "cik": "0000821483",
+      "company_name": "PAR PACIFIC HOLDINGS, INC.",
+      "market_cap": 3081533952.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "QTWO",
+      "cik": "0001410384",
+      "company_name": "Q2 Holdings, Inc.",
+      "market_cap": 3088705024.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BHE",
+      "cik": "0000863436",
+      "company_name": "BENCHMARK ELECTRONICS INC",
+      "market_cap": 3106951168.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KBH",
+      "cik": "0000795266",
+      "company_name": "KB HOME",
+      "market_cap": 3109341952.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "EXPO",
+      "cik": "0000851520",
+      "company_name": "EXPONENT INC",
+      "market_cap": 3121549312.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "MPT",
+      "cik": "0001287865",
+      "company_name": "MEDICAL PROPERTIES TRUST INC",
+      "market_cap": 3126049536.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SFNC",
+      "cik": "0000090498",
+      "company_name": "SIMMONS FIRST NATIONAL CORP",
+      "market_cap": 3131809536.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "IAC",
+      "cik": "0001800227",
+      "company_name": "IAC Inc.",
+      "market_cap": 3142557440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TR",
+      "cik": "0000098677",
+      "company_name": "TOOTSIE ROLL INDUSTRIES INC",
+      "market_cap": 3145373440.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UNFI",
+      "cik": "0001020859",
+      "company_name": "UNITED NATURAL FOODS INC",
+      "market_cap": 3156877568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PRK",
+      "cik": "0000805676",
+      "company_name": "PARK NATIONAL CORP /OH/",
+      "market_cap": 3160662784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PATK",
+      "cik": "0000076605",
+      "company_name": "PATRICK INDUSTRIES INC",
+      "market_cap": 3187209216.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BOH",
+      "cik": "0000046195",
+      "company_name": "BANK OF HAWAII CORP",
+      "market_cap": 3197019904.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "QLYS",
+      "cik": "0001107843",
+      "company_name": "QUALYS, INC.",
+      "market_cap": 3199112960.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "OPCH",
+      "cik": "0001014739",
+      "company_name": "Option Care Health, Inc.",
+      "market_cap": 3211212544.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "AKR",
+      "cik": "0000899629",
+      "company_name": "ACADIA REALTY TRUST",
+      "market_cap": 3212290560.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "YETI",
+      "cik": "0001670592",
+      "company_name": "YETI Holdings, Inc.",
+      "market_cap": 3213952000.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "FFBC",
+      "cik": "0000708955",
+      "company_name": "FIRST FINANCIAL BANCORP /OH/",
+      "market_cap": 3218289920.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MZTI",
+      "cik": "0000057515",
+      "company_name": "MARZETTI CO",
+      "market_cap": 3223774976.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "ADEA",
+      "cik": "0001803696",
+      "company_name": "Adeia Inc.",
+      "market_cap": 3228120576.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RXO",
+      "cik": "0001929561",
+      "company_name": "RXO, Inc.",
+      "market_cap": 3231634176.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HAYW",
+      "cik": "0001834622",
+      "company_name": "Hayward Holdings, Inc.",
+      "market_cap": 3237087744.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CNK",
+      "cik": "0001385280",
+      "company_name": "Cinemark Holdings, Inc.",
+      "market_cap": 3238524416.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "COLM",
+      "cik": "0001050797",
+      "company_name": "COLUMBIA SPORTSWEAR CO",
+      "market_cap": 3244883200.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "BXMT",
+      "cik": "0001061630",
+      "company_name": "BLACKSTONE MORTGAGE TRUST, INC.",
+      "market_cap": 3253905152.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SXI",
+      "cik": "0000310354",
+      "company_name": "STANDEX INTERNATIONAL CORP/DE/",
+      "market_cap": 3260246528.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CHEF",
+      "cik": "0001517175",
+      "company_name": "Chefs' Warehouse, Inc.",
+      "market_cap": 3268734720.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RCUS",
+      "cik": "0001724521",
+      "company_name": "Arcus Biosciences, Inc.",
+      "market_cap": 3270102272.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FIZZ",
+      "cik": "0000069891",
+      "company_name": "NATIONAL BEVERAGE CORP",
+      "market_cap": 3273378304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OLN",
+      "cik": "0000074303",
+      "company_name": "OLIN Corp",
+      "market_cap": 3279082752.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "VCYT",
+      "cik": "0001384101",
+      "company_name": "VERACYTE, INC.",
+      "market_cap": 3286639360.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CVI",
+      "cik": "0001376139",
+      "company_name": "CVR ENERGY INC",
+      "market_cap": 3296398592.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KMT",
+      "cik": "0000055242",
+      "company_name": "KENNAMETAL INC",
+      "market_cap": 3297121792.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "NATL",
+      "cik": "0001974138",
+      "company_name": "NCR Atleos Corp",
+      "market_cap": 3302599424.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "APLE",
+      "cik": "0001418121",
+      "company_name": "Apple Hospitality REIT, Inc.",
+      "market_cap": 3307306496.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GPK",
+      "cik": "0001408075",
+      "company_name": "GRAPHIC PACKAGING HOLDING CO",
+      "market_cap": 3313938688.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "KNTK",
+      "cik": "0001692787",
+      "company_name": "Kinetik Holdings Inc.",
+      "market_cap": 3317641472.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FUL",
+      "cik": "0000039368",
+      "company_name": "FULLER H B CO",
+      "market_cap": 3321000704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AVA",
+      "cik": "0000104918",
+      "company_name": "AVISTA CORP",
+      "market_cap": 3353467648.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BOX",
+      "cik": "0001372612",
+      "company_name": "BOX INC",
+      "market_cap": 3356017920.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CBU",
+      "cik": "0000723188",
+      "company_name": "COMMUNITY FINANCIAL SYSTEM, INC.",
+      "market_cap": 3356588800.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FHB",
+      "cik": "0000036377",
+      "company_name": "FIRST HAWAIIAN, INC.",
+      "market_cap": 3359944704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CARG",
+      "cik": "0001494259",
+      "company_name": "CarGurus, Inc.",
+      "market_cap": 3373890048.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CWK",
+      "cik": "0001628369",
+      "company_name": "Cushman & Wakefield Ltd.",
+      "market_cap": 3387795200.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MHO",
+      "cik": "0000799292",
+      "company_name": "M/I HOMES, INC.",
+      "market_cap": 3392834304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "KFY",
+      "cik": "0000056679",
+      "company_name": "KORN FERRY",
+      "market_cap": 3424547840.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SLG",
+      "cik": "0001040971",
+      "company_name": "SL GREEN REALTY CORP",
+      "market_cap": 3442795008.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AVNT",
+      "cik": "0001122976",
+      "company_name": "AVIENT CORP",
+      "market_cap": 3470299136.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "SKYW",
+      "cik": "0000793733",
+      "company_name": "SKYWEST INC",
+      "market_cap": 3482965760.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "MMS",
+      "cik": "0001032220",
+      "company_name": "MAXIMUS, INC.",
+      "market_cap": 3488381440.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "HWKN",
+      "cik": "0000046250",
+      "company_name": "HAWKINS INC",
+      "market_cap": 3492948480.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LIF",
+      "cik": "0001581760",
+      "company_name": "Life360, Inc.",
+      "market_cap": 3500250624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AAP",
+      "cik": "0001158449",
+      "company_name": "ADVANCE AUTO PARTS INC",
+      "market_cap": 3503316992.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ASO",
+      "cik": "0001817358",
+      "company_name": "Academy Sports & Outdoors, Inc.",
+      "market_cap": 3513113088.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OGN",
+      "cik": "0001821825",
+      "company_name": "Organon & Co.",
+      "market_cap": 3521477632.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WHR",
+      "cik": "0000106640",
+      "company_name": "WHIRLPOOL CORP /DE/",
+      "market_cap": 3526729984.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "BKU",
+      "cik": "0001504008",
+      "company_name": "BankUnited, Inc.",
+      "market_cap": 3529498624.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GNW",
+      "cik": "0001276520",
+      "company_name": "GENWORTH FINANCIAL INC",
+      "market_cap": 3532283904.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FIBK",
+      "cik": "0000860413",
+      "company_name": "FIRST INTERSTATE BANCSYSTEM INC",
+      "market_cap": 3543026432.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CC",
+      "cik": "0001627223",
+      "company_name": "Chemours Co",
+      "market_cap": 3559440384.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SIG",
+      "cik": "0000832988",
+      "company_name": "SIGNET JEWELERS LTD",
+      "market_cap": 3561109248.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ANF",
+      "cik": "0001018840",
+      "company_name": "ABERCROMBIE & FITCH CO /DE/",
+      "market_cap": 3567003136.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "BFH",
+      "cik": "0001101215",
+      "company_name": "BREAD FINANCIAL HOLDINGS, INC.",
+      "market_cap": 3567943936.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BHF",
+      "cik": "0001685040",
+      "company_name": "Brighthouse Financial, Inc.",
+      "market_cap": 3594078720.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "CALM",
+      "cik": "0000016160",
+      "company_name": "CAL-MAINE FOODS INC",
+      "market_cap": 3602989568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BMI",
+      "cik": "0000009092",
+      "company_name": "BADGER METER INC",
+      "market_cap": 3611714304.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CNS",
+      "cik": "0001284812",
+      "company_name": "COHEN & STEERS, INC.",
+      "market_cap": 3626151680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ELF",
+      "cik": "0001600033",
+      "company_name": "e.l.f. Beauty, Inc.",
+      "market_cap": 3627579136.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "CVBF",
+      "cik": "0000354647",
+      "company_name": "CVB FINANCIAL CORP",
+      "market_cap": 3638551552.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LIVN",
+      "cik": "0001639691",
+      "company_name": "LivaNova PLC",
+      "market_cap": 3639428608.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "SMG",
+      "cik": "0000825542",
+      "company_name": "SCOTTS MIRACLE-GRO CO",
+      "market_cap": 3647798272.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "DORM",
+      "cik": "0000868780",
+      "company_name": "Dorman Products, Inc.",
+      "market_cap": 3663928576.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CDP",
+      "cik": "0000860546",
+      "company_name": "COPT DEFENSE PROPERTIES",
+      "market_cap": 3664588288.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "ACMR",
+      "cik": "0001680062",
+      "company_name": "ACM Research, Inc.",
+      "market_cap": 3666979584.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BILL",
+      "cik": "0001786352",
+      "company_name": "BILL Holdings, Inc.",
+      "market_cap": 3668463360.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "MMSI",
+      "cik": "0000856982",
+      "company_name": "MERIT MEDICAL SYSTEMS INC",
+      "market_cap": 3676528896.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ACAD",
+      "cik": "0001070494",
+      "company_name": "ACADIA PHARMACEUTICALS INC",
+      "market_cap": 3677703680.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ITRI",
+      "cik": "0000780571",
+      "company_name": "ITRON, INC.",
+      "market_cap": 3678835712.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "AGO",
+      "cik": "0001273813",
+      "company_name": "ASSURED GUARANTY LTD",
+      "market_cap": 3679104256.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "ABG",
+      "cik": "0001144980",
+      "company_name": "ASBURY AUTOMOTIVE GROUP INC",
+      "market_cap": 3680936704.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OII",
+      "cik": "0000073756",
+      "company_name": "OCEANEERING INTERNATIONAL INC",
+      "market_cap": 3697556224.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CLSK",
+      "cik": "0000827876",
+      "company_name": "CLEANSPARK, INC.",
+      "market_cap": 3708417280.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HRB",
+      "cik": "0000012659",
+      "company_name": "H&R BLOCK INC",
+      "market_cap": 3716595456.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "OTTR",
+      "cik": "0001466593",
+      "company_name": "Otter Tail Corp",
+      "market_cap": 3729248768.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CPRX",
+      "cik": "0001369568",
+      "company_name": "CATALYST PHARMACEUTICALS, INC.",
+      "market_cap": 3734001152.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "UCTT",
+      "cik": "0001275014",
+      "company_name": "Ultra Clean Holdings, Inc.",
+      "market_cap": 3741374208.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WSFS",
+      "cik": "0000828944",
+      "company_name": "WSFS FINANCIAL CORP",
+      "market_cap": 3752896256.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "FBP",
+      "cik": "0001057706",
+      "company_name": "FIRST BANCORP /PR/",
+      "market_cap": 3755968512.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "JOE",
+      "cik": "0000745308",
+      "company_name": "ST JOE Co",
+      "market_cap": 3771820032.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RNST",
+      "cik": "0000715072",
+      "company_name": "RENASANT CORP",
+      "market_cap": 3773768448.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WHD",
+      "cik": "0001699136",
+      "company_name": "Cactus, Inc.",
+      "market_cap": 3783835136.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "VECO",
+      "cik": "0000103145",
+      "company_name": "VEECO INSTRUMENTS INC",
+      "market_cap": 3784686336.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OPLN",
+      "cik": "0001395942",
+      "company_name": "OPENLANE, Inc.",
+      "market_cap": 3807702784.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BRC",
+      "cik": "0000746598",
+      "company_name": "BRADY CORP",
+      "market_cap": 3813191936.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "PII",
+      "cik": "0000931015",
+      "company_name": "Polaris Inc.",
+      "market_cap": 3813648640.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "WAY",
+      "cik": "0001990354",
+      "company_name": "Waystar Holding Corp.",
+      "market_cap": 3817076480.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "INDB",
+      "cik": "0000776901",
+      "company_name": "INDEPENDENT BANK CORP",
+      "market_cap": 3818992384.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CATY",
+      "cik": "0000861842",
+      "company_name": "CATHAY GENERAL BANCORP",
+      "market_cap": 3843667456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BANF",
+      "cik": "0000760498",
+      "company_name": "BANCFIRST CORP /OK/",
+      "market_cap": 3844785152.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "BBWI",
+      "cik": "0000701985",
+      "company_name": "Bath & Body Works, Inc.",
+      "market_cap": 3866544384.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "KAI",
+      "cik": "0000886346",
+      "company_name": "KADANT INC",
+      "market_cap": 3867284736.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GEF",
+      "cik": "0000043920",
+      "company_name": "GREIF, INC",
+      "market_cap": 3875997440.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "HGV",
+      "cik": "0001674168",
+      "company_name": "Hilton Grand Vacations Inc.",
+      "market_cap": 3877321984.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "CVCO",
+      "cik": "0000278166",
+      "company_name": "CAVCO INDUSTRIES, INC.",
+      "market_cap": 3881357568.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "DAN",
+      "cik": "0000026780",
+      "company_name": "DANA Inc",
+      "market_cap": 3900211456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "RNG",
+      "cik": "0001384905",
+      "company_name": "RingCentral, Inc.",
+      "market_cap": 3914790400.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "COCO",
+      "cik": "0001482981",
+      "company_name": "Vita Coco Company, Inc.",
+      "market_cap": 3920211968.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "LRN",
+      "cik": "0001157408",
+      "company_name": "Stride, Inc.",
+      "market_cap": 3954810112.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "OSIS",
+      "cik": "0001039065",
+      "company_name": "OSI SYSTEMS INC",
+      "market_cap": 3960344064.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "WING",
+      "cik": "0001636222",
+      "company_name": "Wingstop Inc.",
+      "market_cap": 3960429824.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "IRT",
+      "cik": "0001466085",
+      "company_name": "INDEPENDENCE REALTY TRUST, INC.",
+      "market_cap": 3967996672.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "BNL",
+      "cik": "0001424182",
+      "company_name": "Broadstone Net Lease, Inc.",
+      "market_cap": 3977243648.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "CVSA",
+      "cik": "0000730464",
+      "company_name": "Covista Inc.",
+      "market_cap": 3979177728.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TPH",
+      "cik": "0001561680",
+      "company_name": "Tri Pointe Homes, Inc.",
+      "market_cap": 3998444288.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "HP",
+      "cik": "0000046765",
+      "company_name": "Helmerich & Payne, Inc.",
+      "market_cap": 4049363456.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TNL",
+      "cik": "0001361658",
+      "company_name": "Travel & Leisure Co.",
+      "market_cap": 4056346112.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "THO",
+      "cik": "0000730263",
+      "company_name": "THOR INDUSTRIES INC",
+      "market_cap": 4059354112.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "UCB",
+      "cik": "0000857855",
+      "company_name": "UNITED COMMUNITY BANKS INC",
+      "market_cap": 4062075904.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "TDW",
+      "cik": "0000098222",
+      "company_name": "TIDEWATER INC",
+      "market_cap": 4063988992.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "SAIC",
+      "cik": "0001571123",
+      "company_name": "Science Applications International Corp",
+      "market_cap": 4067141376.0,
+      "source": "S&P_400"
+    },
+    {
+      "ticker": "VSCO",
+      "cik": "0001856437",
+      "company_name": "Victoria's Secret & Co.",
+      "market_cap": 4092010240.0,
+      "source": "S&P_600"
+    },
+    {
+      "ticker": "GPI",
+      "cik": "0001031203",
+      "company_name": "GROUP 1 AUTOMOTIVE INC",
+      "market_cap": 4092621568.0,
+      "source": "S&P_600"
+    }
+  ]
+}

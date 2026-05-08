@@ -1,0 +1,4783 @@
+{
+  "ranked_at": "2026-05-07T05:05:52",
+  "rules_version": "v2-flat",
+  "sort_mode": "ctmg",
+  "filing_count": 409,
+  "filings": [
+    {
+      "ticker": "NSIT",
+      "accession": "0000932696-26-000007",
+      "cik": "0000932696",
+      "primary_document": "nsit-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 7,
+      "operating_margin_pct": 4.1,
+      "revenue_growth_pct": -5.2
+    },
+    {
+      "ticker": "MMSI",
+      "accession": "0000856982-26-000008",
+      "cik": "0000856982",
+      "primary_document": "mmsi-20251231x10k.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 6,
+      "operating_margin_pct": 12.2,
+      "revenue_growth_pct": 11.8
+    },
+    {
+      "ticker": "AORT",
+      "accession": "0001628280-26-009046",
+      "cik": "0000784199",
+      "primary_document": "aort-20251231.htm",
+      "triggers": [
+        "regulatory action: FDA CBER"
+      ],
+      "chokepoint_score": 6,
+      "operating_margin_pct": 5.0,
+      "revenue_growth_pct": 14.0
+    },
+    {
+      "ticker": "INVA",
+      "accession": "0001193125-26-071776",
+      "cik": "0001080014",
+      "primary_document": "inva-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 5,
+      "operating_margin_pct": 39.8,
+      "revenue_growth_pct": 14.6
+    },
+    {
+      "ticker": "PBH",
+      "accession": "0001295947-25-000017",
+      "cik": "0001295947",
+      "primary_document": "pbh-20250331.htm",
+      "triggers": [
+        "$299M impairment disclosed"
+      ],
+      "chokepoint_score": 5,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 1.1
+    },
+    {
+      "ticker": "CNXN",
+      "accession": "0001104659-26-019108",
+      "cik": "0001050377",
+      "primary_document": "cnxn-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 5,
+      "operating_margin_pct": 3.5,
+      "revenue_growth_pct": 2.5
+    },
+    {
+      "ticker": "RCUS",
+      "accession": "0001724521-26-000009",
+      "cik": "0001724521",
+      "primary_document": "rcus-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 5,
+      "operating_margin_pct": -156.3,
+      "revenue_growth_pct": -4.3
+    },
+    {
+      "ticker": "NTCT",
+      "accession": "0001628280-25-025982",
+      "cik": "0001078075",
+      "primary_document": "ntct-20250331.htm",
+      "triggers": [
+        "$427M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 4,
+      "operating_margin_pct": -44.7,
+      "revenue_growth_pct": -0.8
+    },
+    {
+      "ticker": "CSGS",
+      "accession": "0001193125-26-059632",
+      "cik": "0001005757",
+      "primary_document": "csgs-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 9.7,
+      "revenue_growth_pct": 2.2
+    },
+    {
+      "ticker": "SAFT",
+      "accession": "0001172052-26-000005",
+      "cik": "0001172052",
+      "primary_document": "saft-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.8
+    },
+    {
+      "ticker": "CNXC",
+      "accession": "0001803599-26-000027",
+      "cik": "0001803599",
+      "primary_document": "cnxc-20251130.htm",
+      "triggers": [
+        "$1.5B+ impairment disclosed"
+      ],
+      "chokepoint_score": 4,
+      "operating_margin_pct": -9.3,
+      "revenue_growth_pct": 2.2
+    },
+    {
+      "ticker": "WINA",
+      "accession": "0000908315-26-000007",
+      "cik": "0000908315",
+      "primary_document": "wina-20251227x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 63.4,
+      "revenue_growth_pct": 5.9
+    },
+    {
+      "ticker": "RNG",
+      "accession": "0001384905-26-000021",
+      "cik": "0001384905",
+      "primary_document": "rng-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 4.8,
+      "revenue_growth_pct": 4.8
+    },
+    {
+      "ticker": "EPC",
+      "accession": "0001628280-25-052765",
+      "cik": "0001096752",
+      "primary_document": "epc-20250930.htm",
+      "triggers": [],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 4.3,
+      "revenue_growth_pct": -1.3
+    },
+    {
+      "ticker": "HMN",
+      "accession": "0000850141-26-000007",
+      "cik": "0000850141",
+      "primary_document": "hmn-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.7
+    },
+    {
+      "ticker": "KFY",
+      "accession": "0001628280-25-033260",
+      "cik": "0000056679",
+      "primary_document": "kfy-20250430.htm",
+      "triggers": [],
+      "chokepoint_score": 4,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -1.2
+    },
+    {
+      "ticker": "ICUI",
+      "accession": "0000883984-26-000008",
+      "cik": "0000883984",
+      "primary_document": "icui-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. Commerce Department, FDA"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 2.0,
+      "revenue_growth_pct": -8.3
+    },
+    {
+      "ticker": "UA",
+      "accession": "0001336917-25-000078",
+      "cik": "0001336917",
+      "primary_document": "ua-20250331.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": -3.6,
+      "revenue_growth_pct": -9.4
+    },
+    {
+      "ticker": "UAA",
+      "accession": "0001336917-25-000078",
+      "cik": "0001336917",
+      "primary_document": "ua-20250331.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": -3.6,
+      "revenue_growth_pct": -9.4
+    },
+    {
+      "ticker": "LMAT",
+      "accession": "0001193125-26-073360",
+      "cik": "0001158895",
+      "primary_document": "ck0001158895-20251231.htm",
+      "triggers": [
+        "regulatory action: FDA"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 27.2,
+      "revenue_growth_pct": 14.0
+    },
+    {
+      "ticker": "HAE",
+      "accession": "0000313143-25-000025",
+      "cik": "0000313143",
+      "primary_document": "hae-20250329.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 16.3,
+      "revenue_growth_pct": 4.0
+    },
+    {
+      "ticker": "LGND",
+      "accession": "0000886163-26-000006",
+      "cik": "0000886163",
+      "primary_document": "lgnd-20251231.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 15.3,
+      "revenue_growth_pct": 60.4
+    },
+    {
+      "ticker": "ANIP",
+      "accession": "0001023024-26-000014",
+      "cik": "0001023024",
+      "primary_document": "anip-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 12.6,
+      "revenue_growth_pct": 43.8
+    },
+    {
+      "ticker": "CNMD",
+      "accession": "0000816956-26-000009",
+      "cik": "0000816956",
+      "primary_document": "cnmd-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 7.5,
+      "revenue_growth_pct": 5.2
+    },
+    {
+      "ticker": "CRI",
+      "accession": "0001060822-26-000016",
+      "cik": "0001060822",
+      "primary_document": "cri-20260103.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 5.0,
+      "revenue_growth_pct": 1.9
+    },
+    {
+      "ticker": "SKYW",
+      "accession": "0001104659-26-016358",
+      "cik": "0000793733",
+      "primary_document": "skyw-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 15.0
+    },
+    {
+      "ticker": "ALGT",
+      "accession": "0001362468-26-000008",
+      "cik": "0001362468",
+      "primary_document": "algt-20251231.htm",
+      "triggers": [
+        "$100M impairment disclosed"
+      ],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 3.7
+    },
+    {
+      "ticker": "GSHD",
+      "accession": "0001726978-26-000010",
+      "cik": "0001726978",
+      "primary_document": "gshd-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 20.4,
+      "revenue_growth_pct": 16.1
+    },
+    {
+      "ticker": "UPWK",
+      "accession": "0001627475-26-000012",
+      "cik": "0001627475",
+      "primary_document": "upwk-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 16.4,
+      "revenue_growth_pct": 2.4
+    },
+    {
+      "ticker": "ELF",
+      "accession": "0001600033-25-000016",
+      "cik": "0001600033",
+      "primary_document": "elf-20250331.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 12.0,
+      "revenue_growth_pct": 28.2
+    },
+    {
+      "ticker": "SNCY",
+      "accession": "0001743907-26-000032",
+      "cik": "0001743907",
+      "primary_document": "sncy-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 8.9,
+      "revenue_growth_pct": 4.8
+    },
+    {
+      "ticker": "MAN",
+      "accession": "0001193125-26-064113",
+      "cik": "0000871763",
+      "primary_document": "man-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": 0.8,
+      "revenue_growth_pct": 0.6
+    },
+    {
+      "ticker": "GDYN",
+      "accession": "0001743725-26-000007",
+      "cik": "0001743725",
+      "primary_document": "gdyn-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 3,
+      "operating_margin_pct": -0.5,
+      "revenue_growth_pct": 17.5
+    },
+    {
+      "ticker": "BLKB",
+      "accession": "0001280058-26-000006",
+      "cik": "0001280058",
+      "primary_document": "blkb-20251231.htm",
+      "triggers": [
+        "restatement of prior-period financials mentioned",
+        "$390M impairment disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: SEC, FTC"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 16.9,
+      "revenue_growth_pct": -2.3
+    },
+    {
+      "ticker": "CALY",
+      "accession": "0000837465-26-000010",
+      "cik": "0000837465",
+      "primary_document": "modg-20251231.htm",
+      "triggers": [
+        "restatement of prior-period financials mentioned",
+        "$1.5B+ impairment disclosed",
+        "divestiture $1.1B disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 6.2,
+      "revenue_growth_pct": -0.8
+    },
+    {
+      "ticker": "IAC",
+      "accession": "0001628280-26-009997",
+      "cik": "0001800227",
+      "primary_document": "iaci-20251231.htm",
+      "triggers": [
+        "$207M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": -4.1,
+      "revenue_growth_pct": -8.7
+    },
+    {
+      "ticker": "AZTA",
+      "accession": "0001437749-25-036931",
+      "cik": "0000933974",
+      "primary_document": "azta20250930_10k.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "restatement of prior-period financials mentioned",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": -4.5,
+      "revenue_growth_pct": 3.6
+    },
+    {
+      "ticker": "PHIN",
+      "accession": "0001968915-26-000023",
+      "cik": "0001968915",
+      "primary_document": "phin-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 7.3,
+      "revenue_growth_pct": 2.4
+    },
+    {
+      "ticker": "TRIP",
+      "accession": "0001193125-26-051281",
+      "cik": "0001526520",
+      "primary_document": "trip-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 4.2,
+      "revenue_growth_pct": 3.1
+    },
+    {
+      "ticker": "EXTR",
+      "accession": "0000950170-25-109742",
+      "cik": "0001078271",
+      "primary_document": "extr-20250630.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Office of Foreign Assets Control, Bureau of Industry and Security, Department of Justice"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 1.5,
+      "revenue_growth_pct": 2.0
+    },
+    {
+      "ticker": "QDEL",
+      "accession": "0001906324-26-000008",
+      "cik": "0001906324",
+      "primary_document": "qdel-20251228.htm",
+      "triggers": [
+        "$1.7B+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -1.9
+    },
+    {
+      "ticker": "WHD",
+      "accession": "0001628280-26-012377",
+      "cik": "0001699136",
+      "primary_document": "whd-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 23.2,
+      "revenue_growth_pct": -4.5
+    },
+    {
+      "ticker": "EVTC",
+      "accession": "0001559865-26-000012",
+      "cik": "0001559865",
+      "primary_document": "evtc-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 20.0,
+      "revenue_growth_pct": 10.2
+    },
+    {
+      "ticker": "INVX",
+      "accession": "0001193125-26-067228",
+      "cik": "0001042893",
+      "primary_document": "invx-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 13.6,
+      "revenue_growth_pct": 48.0
+    },
+    {
+      "ticker": "ALRM",
+      "accession": "0001459200-26-000005",
+      "cik": "0001459200",
+      "primary_document": "alrm-20251231.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 13.2,
+      "revenue_growth_pct": 7.6
+    },
+    {
+      "ticker": "ZD",
+      "accession": "0001084048-26-000005",
+      "cik": "0001084048",
+      "primary_document": "zd-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 13.0,
+      "revenue_growth_pct": 3.5
+    },
+    {
+      "ticker": "PAYO",
+      "accession": "0001104659-26-020487",
+      "cik": "0001845815",
+      "primary_document": "payo-20251231x10k.htm",
+      "triggers": [
+        "regulatory action: U.S. Department of the Treasury Office of Foreign Assets Control (OFAC)"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 11.9,
+      "revenue_growth_pct": 7.7
+    },
+    {
+      "ticker": "NATL",
+      "accession": "0001628280-26-012576",
+      "cik": "0001974138",
+      "primary_document": "ncr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 11.0,
+      "revenue_growth_pct": 1.1
+    },
+    {
+      "ticker": "MMS",
+      "accession": "0001032220-25-000053",
+      "cik": "0001032220",
+      "primary_document": "mms-20250930.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 9.7,
+      "revenue_growth_pct": 2.4
+    },
+    {
+      "ticker": "SONO",
+      "accession": "0001314727-25-000090",
+      "cik": "0001314727",
+      "primary_document": "sono-20250927.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -4.9
+    },
+    {
+      "ticker": "GO",
+      "accession": "0001771515-26-000015",
+      "cik": "0001771515",
+      "primary_document": "go-20260103.htm",
+      "triggers": [
+        "$149M impairment disclosed"
+      ],
+      "chokepoint_score": 2,
+      "operating_margin_pct": -4.7,
+      "revenue_growth_pct": 7.3
+    },
+    {
+      "ticker": "DBD",
+      "accession": "0000028823-26-000008",
+      "cik": "0000028823",
+      "primary_document": "dbd-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 20.3,
+      "revenue_growth_pct": 1.5
+    },
+    {
+      "ticker": "BKE",
+      "accession": "0000885245-26-000012",
+      "cik": "0000885245",
+      "primary_document": "bke-20260131.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 20.2,
+      "revenue_growth_pct": 6.6
+    },
+    {
+      "ticker": "YELP",
+      "accession": "0001345016-26-000019",
+      "cik": "0001345016",
+      "primary_document": "yelp-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 12.6,
+      "revenue_growth_pct": 3.8
+    },
+    {
+      "ticker": "VCYT",
+      "accession": "0001384101-26-000010",
+      "cik": "0001384101",
+      "primary_document": "vcyt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 11.2,
+      "revenue_growth_pct": 16.0
+    },
+    {
+      "ticker": "JBSS",
+      "accession": "0000950170-25-110463",
+      "cik": "0000880117",
+      "primary_document": "jbss-20250626.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 7.7,
+      "revenue_growth_pct": 3.8
+    },
+    {
+      "ticker": "DRH",
+      "accession": "0001298946-26-000013",
+      "cik": "0001298946",
+      "primary_document": "drh-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -0.8
+    },
+    {
+      "ticker": "HLX",
+      "accession": "0000866829-26-000008",
+      "cik": "0000866829",
+      "primary_document": "hlx-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 2,
+      "operating_margin_pct": -0.8,
+      "revenue_growth_pct": -4.9
+    },
+    {
+      "ticker": "LIVN",
+      "accession": "0001639691-26-000010",
+      "cik": "0001639691",
+      "primary_document": "livn-20251231.htm",
+      "triggers": [
+        "restatement of prior-period financials mentioned",
+        "litigation with disclosed exposure $366M+",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 14.4,
+      "revenue_growth_pct": 10.7
+    },
+    {
+      "ticker": "SMG",
+      "accession": "0000825542-25-000022",
+      "cik": "0000825542",
+      "primary_document": "smg-20250930.htm",
+      "triggers": [
+        "$128M impairment disclosed",
+        "3 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. EPA and various state and local environmental agencies"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 10.5,
+      "revenue_growth_pct": -3.9
+    },
+    {
+      "ticker": "FLO",
+      "accession": "0001193125-26-071441",
+      "cik": "0001128928",
+      "primary_document": "flo-20260103.htm",
+      "triggers": [
+        "$136M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 3.3,
+      "revenue_growth_pct": 3.0
+    },
+    {
+      "ticker": "NEO",
+      "accession": "0001077183-26-000010",
+      "cik": "0001077183",
+      "primary_document": "neo-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 10.1
+    },
+    {
+      "ticker": "VAC",
+      "accession": "0001524358-26-000010",
+      "cik": "0001524358",
+      "primary_document": "vac-20251231.htm",
+      "triggers": [
+        "$160M impairment disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 1.3
+    },
+    {
+      "ticker": "FMC",
+      "accession": "0000037785-26-000041",
+      "cik": "0000037785",
+      "primary_document": "fmc-20251231.htm",
+      "triggers": [
+        "$1.4B+ impairment disclosed",
+        "5 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": -46.9,
+      "revenue_growth_pct": -18.3
+    },
+    {
+      "ticker": "CALM",
+      "accession": "0001562762-25-000170",
+      "cik": "0000016160",
+      "primary_document": "calm2025053110K.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Department of Justice"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 36.0,
+      "revenue_growth_pct": 83.2
+    },
+    {
+      "ticker": "OTTR",
+      "accession": "0001466593-26-000008",
+      "cik": "0001466593",
+      "primary_document": "ottr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "planned capex $2.0B next fiscal year"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 26.5,
+      "revenue_growth_pct": -2.0
+    },
+    {
+      "ticker": "TMDX",
+      "accession": "0001193125-26-067032",
+      "cik": "0001756262",
+      "primary_document": "tmdx-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 17.9,
+      "revenue_growth_pct": 37.1
+    },
+    {
+      "ticker": "CON",
+      "accession": "0002014596-26-000029",
+      "cik": "0002014596",
+      "primary_document": "cghp-20251231.htm",
+      "triggers": [
+        "4 pending litigation matter(s) disclosed",
+        "regulatory action: California Department of Insurance, DOJ"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 15.4,
+      "revenue_growth_pct": 13.9
+    },
+    {
+      "ticker": "YETI",
+      "accession": "0001670592-26-000013",
+      "cik": "0001670592",
+      "primary_document": "yeti-20260103.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 11.4,
+      "revenue_growth_pct": 2.1
+    },
+    {
+      "ticker": "SSTK",
+      "accession": "0001549346-26-000008",
+      "cik": "0001549346",
+      "primary_document": "sstk-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Federal Trade Commission, Department of Justice"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 7.6,
+      "revenue_growth_pct": 5.8
+    },
+    {
+      "ticker": "SAM",
+      "accession": "0001193125-26-067467",
+      "cik": "0000949870",
+      "primary_document": "sam-20251227.htm",
+      "triggers": [
+        "litigation with disclosed exposure $300M+",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 7.4,
+      "revenue_growth_pct": -2.4
+    },
+    {
+      "ticker": "INSP",
+      "accession": "0001609550-26-000016",
+      "cik": "0001609550",
+      "primary_document": "insp-20251231.htm",
+      "triggers": [
+        "6 pending litigation matter(s) disclosed",
+        "regulatory action: Department of Justice U.S. Attorney's Office for the District of Minnesota"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 5.6,
+      "revenue_growth_pct": 13.6
+    },
+    {
+      "ticker": "DCH",
+      "accession": "0001062231-26-000020",
+      "cik": "0001062231",
+      "primary_document": "dch-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $335M+",
+        "acquisition $1.7B disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 1.9,
+      "revenue_growth_pct": -4.7
+    },
+    {
+      "ticker": "HGV",
+      "accession": "0001674168-26-000017",
+      "cik": "0001674168",
+      "primary_document": "hgv-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "acquisition $1.6B disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 1.3
+    },
+    {
+      "ticker": "JBLU",
+      "accession": "0001158463-26-000007",
+      "cik": "0001158463",
+      "primary_document": "jblu-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Department of Transportation (DOT)"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": -4.1,
+      "revenue_growth_pct": -2.3
+    },
+    {
+      "ticker": "ENOV",
+      "accession": "0001420800-26-000012",
+      "cik": "0001420800",
+      "primary_document": "cfx-20251231.htm",
+      "triggers": [
+        "$645M+ impairment disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": -50.0,
+      "revenue_growth_pct": 6.7
+    },
+    {
+      "ticker": "GTM",
+      "accession": "0001794515-26-000012",
+      "cik": "0001794515",
+      "primary_document": "zi-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 18.1,
+      "revenue_growth_pct": 2.9
+    },
+    {
+      "ticker": "BRBR",
+      "accession": "0001772016-25-000153",
+      "cik": "0001772016",
+      "primary_document": "brbr-20250930.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 15.4,
+      "revenue_growth_pct": 16.0
+    },
+    {
+      "ticker": "CTS",
+      "accession": "0001193125-26-067039",
+      "cik": "0000026058",
+      "primary_document": "cts-20251231.htm",
+      "triggers": [
+        "regulatory action: U.S. Environmental Protection Agency (EPA)"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 15.3,
+      "revenue_growth_pct": 5.2
+    },
+    {
+      "ticker": "TNL",
+      "accession": "0001361658-26-000009",
+      "cik": "0001361658",
+      "primary_document": "tnl-20251231.htm",
+      "triggers": [
+        "$216M impairment disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 13.8,
+      "revenue_growth_pct": 4.1
+    },
+    {
+      "ticker": "OSIS",
+      "accession": "0001410578-25-001887",
+      "cik": "0001039065",
+      "primary_document": "osis-20250630x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 12.7,
+      "revenue_growth_pct": 11.3
+    },
+    {
+      "ticker": "ITGR",
+      "accession": "0001114483-26-000003",
+      "cik": "0001114483",
+      "primary_document": "gb-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 11.9,
+      "revenue_growth_pct": 8.0
+    },
+    {
+      "ticker": "DV",
+      "accession": "0001104659-26-020499",
+      "cik": "0001819928",
+      "primary_document": "dv-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 10.6,
+      "revenue_growth_pct": 14.0
+    },
+    {
+      "ticker": "AGYS",
+      "accession": "0000950170-25-076527",
+      "cik": "0000078749",
+      "primary_document": "agys-20250331.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 8.2,
+      "revenue_growth_pct": 16.1
+    },
+    {
+      "ticker": "FRPT",
+      "accession": "0001611647-26-000006",
+      "cik": "0001611647",
+      "primary_document": "frpt-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 6.9,
+      "revenue_growth_pct": 13.0
+    },
+    {
+      "ticker": "COLM",
+      "accession": "0001050797-26-000028",
+      "cik": "0001050797",
+      "primary_document": "colm-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 6.1,
+      "revenue_growth_pct": 0.9
+    },
+    {
+      "ticker": "QNST",
+      "accession": "0000950170-25-110629",
+      "cik": "0001117297",
+      "primary_document": "qnst-20250630.htm",
+      "triggers": [
+        "3 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.6,
+      "revenue_growth_pct": 78.3
+    },
+    {
+      "ticker": "FIZZ",
+      "accession": "0001437749-25-022007",
+      "cik": "0000069891",
+      "primary_document": "fizz20250503_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.8
+    },
+    {
+      "ticker": "JBGS",
+      "accession": "0001104659-26-016450",
+      "cik": "0001689796",
+      "primary_document": "jbgs-20251231x10k.htm",
+      "triggers": [
+        "litigation with disclosed exposure $185M+"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -8.9
+    },
+    {
+      "ticker": "TNDM",
+      "accession": "0001438133-26-000010",
+      "cik": "0001438133",
+      "primary_document": "tndm-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": -18.5,
+      "revenue_growth_pct": 7.9
+    },
+    {
+      "ticker": "XNCR",
+      "accession": "0001326732-26-000015",
+      "cik": "0001326732",
+      "primary_document": "xncr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 1,
+      "operating_margin_pct": -141.2,
+      "revenue_growth_pct": 13.7
+    },
+    {
+      "ticker": "ATEN",
+      "accession": "0001580808-26-000014",
+      "cik": "0001580808",
+      "primary_document": "aten-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 16.2,
+      "revenue_growth_pct": 11.0
+    },
+    {
+      "ticker": "DORM",
+      "accession": "0000868780-26-000014",
+      "cik": "0000868780",
+      "primary_document": "dorm-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 14.1,
+      "revenue_growth_pct": 6.0
+    },
+    {
+      "ticker": "COCO",
+      "accession": "0001482981-26-000022",
+      "cik": "0001482981",
+      "primary_document": "coco-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 13.5,
+      "revenue_growth_pct": 18.2
+    },
+    {
+      "ticker": "MZTI",
+      "accession": "0000057515-25-000020",
+      "cik": "0000057515",
+      "primary_document": "mzti-20250630.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 11.5,
+      "revenue_growth_pct": 2.0
+    },
+    {
+      "ticker": "VC",
+      "accession": "0001111335-26-000006",
+      "cik": "0001111335",
+      "primary_document": "vc-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 8.7,
+      "revenue_growth_pct": -2.5
+    },
+    {
+      "ticker": "HSTM",
+      "accession": "0001437749-26-005916",
+      "cik": "0001095565",
+      "primary_document": "hstm20251231_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 6.6,
+      "revenue_growth_pct": 4.3
+    },
+    {
+      "ticker": "CCOI",
+      "accession": "0001104659-26-017968",
+      "cik": "0001158324",
+      "primary_document": "ccoi-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 5.4,
+      "revenue_growth_pct": -5.8
+    },
+    {
+      "ticker": "VCEL",
+      "accession": "0001628280-26-012013",
+      "cik": "0000887359",
+      "primary_document": "vcel-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 4.0,
+      "revenue_growth_pct": 16.5
+    },
+    {
+      "ticker": "KD",
+      "accession": "0001558370-25-008282",
+      "cik": "0001867072",
+      "primary_document": "kd-20250331x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 2.9,
+      "revenue_growth_pct": -6.2
+    },
+    {
+      "ticker": "RES",
+      "accession": "0001104659-26-021480",
+      "cik": "0000742278",
+      "primary_document": "res-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 2.7,
+      "revenue_growth_pct": 15.0
+    },
+    {
+      "ticker": "ARLO",
+      "accession": "0001736946-26-000031",
+      "cik": "0001736946",
+      "primary_document": "arlo-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 1.2,
+      "revenue_growth_pct": 3.6
+    },
+    {
+      "ticker": "CRSR",
+      "accession": "0001193125-26-067833",
+      "cik": "0001743759",
+      "primary_document": "crsr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.1,
+      "revenue_growth_pct": 11.9
+    },
+    {
+      "ticker": "DEA",
+      "accession": "0001193125-26-064115",
+      "cik": "0001622194",
+      "primary_document": "dea-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 11.3
+    },
+    {
+      "ticker": "CDP",
+      "accession": "0000860546-26-000011",
+      "cik": "0000860546",
+      "primary_document": "cdp-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 1,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 1.4
+    },
+    {
+      "ticker": "UPBD",
+      "accession": "0000933036-26-000008",
+      "cik": "0000933036",
+      "primary_document": "upbd-20251231.htm",
+      "triggers": [
+        "restatement of prior-period financials mentioned",
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Federal Trade Commission",
+        "CFO changed during fiscal year",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.8,
+      "revenue_growth_pct": 8.7
+    },
+    {
+      "ticker": "ACHC",
+      "accession": "0001193125-26-078266",
+      "cik": "0001520697",
+      "primary_document": "achc-20251231.htm",
+      "triggers": [
+        "$996M+ impairment disclosed",
+        "litigation with disclosed exposure $400M+",
+        "1 regulatory action(s) disclosed",
+        "CFO changed during fiscal year",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.0
+    },
+    {
+      "ticker": "OGN",
+      "accession": "0001628280-26-011125",
+      "cik": "0001821825",
+      "primary_document": "ogn-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "$301M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: SEC",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.9
+    },
+    {
+      "ticker": "LEG",
+      "accession": "0000058492-26-000107",
+      "cik": "0000058492",
+      "primary_document": "leg-20251231.htm",
+      "triggers": [
+        "$587M+ impairment disclosed",
+        "5 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.8,
+      "revenue_growth_pct": -7.5
+    },
+    {
+      "ticker": "ABG",
+      "accession": "0001144980-26-000051",
+      "cik": "0001144980",
+      "primary_document": "abg-20251231.htm",
+      "triggers": [
+        "$150M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Federal Trade Commission",
+        "acquisition $1.8B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.8,
+      "revenue_growth_pct": 4.7
+    },
+    {
+      "ticker": "SEZL",
+      "accession": "0001662991-26-000016",
+      "cik": "0001662991",
+      "primary_document": "szl-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "restatement of prior-period financials mentioned",
+        "1 pending litigation matter(s) disclosed",
+        "3 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 66.1
+    },
+    {
+      "ticker": "NOG",
+      "accession": "0001104485-26-000008",
+      "cik": "0001104485",
+      "primary_document": "nog-20251231.htm",
+      "triggers": [
+        "$703M+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Environmental Protection Agency",
+        "planned capex $1.0B next fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 11.2
+    },
+    {
+      "ticker": "TALO",
+      "accession": "0001193125-26-067807",
+      "cik": "0001724965",
+      "primary_document": "talo-20251231.htm",
+      "triggers": [
+        "$454M impairment disclosed",
+        "3 pending litigation matter(s) disclosed",
+        "CFO changed during fiscal year",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -9.8
+    },
+    {
+      "ticker": "GOGO",
+      "accession": "0001193125-26-082487",
+      "cik": "0001537054",
+      "primary_document": "gogo-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.5,
+      "revenue_growth_pct": 104.7
+    },
+    {
+      "ticker": "GPK",
+      "accession": "0001408075-26-000009",
+      "cik": "0001408075",
+      "primary_document": "gpk-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "CFO changed during fiscal year",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 9.3,
+      "revenue_growth_pct": -2.2
+    },
+    {
+      "ticker": "SAIC",
+      "accession": "0001571123-26-000029",
+      "cik": "0001571123",
+      "primary_document": "saic-20260130.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.2,
+      "revenue_growth_pct": -2.9
+    },
+    {
+      "ticker": "GT",
+      "accession": "0001628280-26-006708",
+      "cik": "0000042582",
+      "primary_document": "gt-20251231.htm",
+      "triggers": [
+        "$674M+ impairment disclosed",
+        "3 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. Environmental Protection Agency"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.8,
+      "revenue_growth_pct": -3.2
+    },
+    {
+      "ticker": "COTY",
+      "accession": "0001024305-25-000030",
+      "cik": "0001024305",
+      "primary_document": "coty-20250630.htm",
+      "triggers": [
+        "$213M impairment disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.1,
+      "revenue_growth_pct": -3.7
+    },
+    {
+      "ticker": "HP",
+      "accession": "0000046765-25-000071",
+      "cik": "0000046765",
+      "primary_document": "hp-20250930.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "$128M impairment disclosed",
+        "acquisition $2.0B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.8,
+      "revenue_growth_pct": 32.1
+    },
+    {
+      "ticker": "FDP",
+      "accession": "0001047340-26-000015",
+      "cik": "0001047340",
+      "primary_document": "fdp-20251226.htm",
+      "triggers": [
+        "$131M impairment disclosed",
+        "litigation with disclosed exposure $261M+",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.2,
+      "revenue_growth_pct": 1.0
+    },
+    {
+      "ticker": "AHCO",
+      "accession": "0001628280-26-011213",
+      "cik": "0001725255",
+      "primary_document": "ahco-20251231.htm",
+      "triggers": [
+        "$831M+ impairment disclosed",
+        "5 pending litigation matter(s) disclosed",
+        "3 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.8,
+      "revenue_growth_pct": -0.5
+    },
+    {
+      "ticker": "NWL",
+      "accession": "0000814453-26-000008",
+      "cik": "0000814453",
+      "primary_document": "nwl-20251231.htm",
+      "triggers": [
+        "$345M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Securities and Exchange Commission"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.5,
+      "revenue_growth_pct": -5.0
+    },
+    {
+      "ticker": "PENN",
+      "accession": "0000921738-26-000008",
+      "cik": "0000921738",
+      "primary_document": "penn-20251231.htm",
+      "triggers": [
+        "$825M+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.8
+    },
+    {
+      "ticker": "KMPR",
+      "accession": "0000860748-26-000014",
+      "cik": "0000860748",
+      "primary_document": "kmpr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Florida Department of Financial Services",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 3.3
+    },
+    {
+      "ticker": "OI",
+      "accession": "0001104659-26-014319",
+      "cik": "0000812074",
+      "primary_document": "oi-20251231x10k.htm",
+      "triggers": [
+        "$445M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -1.6
+    },
+    {
+      "ticker": "XRAY",
+      "accession": "0000818479-26-000075",
+      "cik": "0000818479",
+      "primary_document": "xray-20251231.htm",
+      "triggers": [
+        "$525M+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -3.0
+    },
+    {
+      "ticker": "EGBN",
+      "accession": "0001050441-26-000021",
+      "cik": "0001050441",
+      "primary_document": "egbn-20251231.htm",
+      "triggers": [
+        "$104M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -3.1
+    },
+    {
+      "ticker": "HTZ",
+      "accession": "0001657853-26-000008",
+      "cik": "0001657853",
+      "primary_document": "htz-20251231.htm",
+      "triggers": [
+        "$1.0B+ impairment disclosed",
+        "litigation with disclosed exposure $346M+",
+        "planned capex $9.4B next fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -6.0
+    },
+    {
+      "ticker": "KOP",
+      "accession": "0001315257-26-000012",
+      "cik": "0001315257",
+      "primary_document": "kop-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed",
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -10.2
+    },
+    {
+      "ticker": "IIPR",
+      "accession": "0001677576-26-000001",
+      "cik": "0001677576",
+      "primary_document": "iipr-20251231.htm",
+      "triggers": [
+        "going concern language present",
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: SEC"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -13.8
+    },
+    {
+      "ticker": "EXPI",
+      "accession": "0001104659-26-019145",
+      "cik": "0001495932",
+      "primary_document": "expi-20251231x10k.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. Department of Justice",
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.4,
+      "revenue_growth_pct": 4.5
+    },
+    {
+      "ticker": "AAP",
+      "accession": "0001193125-26-051305",
+      "cik": "0001158449",
+      "primary_document": "aap-20260103.htm",
+      "triggers": [
+        "$431M impairment disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "asset_sale $1.4B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.5,
+      "revenue_growth_pct": -5.4
+    },
+    {
+      "ticker": "HOG",
+      "accession": "0000793952-26-000011",
+      "cik": "0000793952",
+      "primary_document": "hog-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.8,
+      "revenue_growth_pct": -13.2
+    },
+    {
+      "ticker": "PRAA",
+      "accession": "0001185348-26-000006",
+      "cik": "0001185348",
+      "primary_document": "praa-20251231.htm",
+      "triggers": [
+        "$413M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -2.5,
+      "revenue_growth_pct": 7.8
+    },
+    {
+      "ticker": "AIN",
+      "accession": "0001628280-26-012906",
+      "cik": "0000819793",
+      "primary_document": "ain-20251231.htm",
+      "triggers": [
+        "$166M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. Department of War"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -3.1,
+      "revenue_growth_pct": -3.9
+    },
+    {
+      "ticker": "RUN",
+      "accession": "0001628280-26-012289",
+      "cik": "0001469367",
+      "primary_document": "run-20251231.htm",
+      "triggers": [
+        "$3.1B+ impairment disclosed",
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -4.3,
+      "revenue_growth_pct": 45.1
+    },
+    {
+      "ticker": "UCTT",
+      "accession": "0001628280-26-010744",
+      "cik": "0001275014",
+      "primary_document": "uctt-20251226.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: SEC",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -5.2,
+      "revenue_growth_pct": -2.1
+    },
+    {
+      "ticker": "NX",
+      "accession": "0001423221-25-000100",
+      "cik": "0001423221",
+      "primary_document": "nx-20251031.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "$302M impairment disclosed",
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -10.6,
+      "revenue_growth_pct": 43.8
+    },
+    {
+      "ticker": "CABO",
+      "accession": "0001632127-26-000005",
+      "cik": "0001632127",
+      "primary_document": "cabo-20251231.htm",
+      "triggers": [
+        "$497M impairment disclosed",
+        "1 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -13.8,
+      "revenue_growth_pct": -4.9
+    },
+    {
+      "ticker": "FUN",
+      "accession": "0001999001-26-000048",
+      "cik": "0001999001",
+      "primary_document": "fun-20251231.htm",
+      "triggers": [
+        "$1.5B+ impairment disclosed",
+        "5 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -44.4,
+      "revenue_growth_pct": 14.4
+    },
+    {
+      "ticker": "WT",
+      "accession": "0001214659-26-002458",
+      "cik": "0000880631",
+      "primary_document": "wti-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: SEC"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 35.3,
+      "revenue_growth_pct": 15.4
+    },
+    {
+      "ticker": "TRN",
+      "accession": "0000099780-26-000014",
+      "cik": "0000099780",
+      "primary_document": "trn-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "planned capex $3.5B next fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 30.1,
+      "revenue_growth_pct": -30.0
+    },
+    {
+      "ticker": "MSEX",
+      "accession": "0001628280-26-009777",
+      "cik": "0000066004",
+      "primary_document": "msex-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "auditor changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 27.9,
+      "revenue_growth_pct": 1.5
+    },
+    {
+      "ticker": "CPK",
+      "accession": "0001628280-26-011753",
+      "cik": "0000019745",
+      "primary_document": "cpk-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: FERC"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 27.5,
+      "revenue_growth_pct": 18.1
+    },
+    {
+      "ticker": "COLL",
+      "accession": "0001628280-26-011992",
+      "cik": "0001267565",
+      "primary_document": "coll-20251231.htm",
+      "triggers": [
+        "4 pending litigation matter(s) disclosed",
+        "regulatory action: FDA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 23.0,
+      "revenue_growth_pct": 23.6
+    },
+    {
+      "ticker": "PRGS",
+      "accession": "0000876167-26-000008",
+      "cik": "0000876167",
+      "primary_document": "prgs-20251130.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: FTC, SEC, State Attorneys General, Foreign Data Privacy Regulators"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 22.5,
+      "revenue_growth_pct": 29.8
+    },
+    {
+      "ticker": "HAYW",
+      "accession": "0001834622-26-000008",
+      "cik": "0001834622",
+      "primary_document": "hayw-20251231.htm",
+      "triggers": [
+        "4 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 20.8,
+      "revenue_growth_pct": 6.7
+    },
+    {
+      "ticker": "HRB",
+      "accession": "0001605297-25-000016",
+      "cik": "0000012659",
+      "primary_document": "hrb-20250630.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 20.8,
+      "revenue_growth_pct": 4.2
+    },
+    {
+      "ticker": "MCW",
+      "accession": "0001193125-26-078965",
+      "cik": "0001853513",
+      "primary_document": "mcw-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "merger $3.8B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 19.0,
+      "revenue_growth_pct": 5.7
+    },
+    {
+      "ticker": "TR",
+      "accession": "0001104659-26-021621",
+      "cik": "0000098677",
+      "primary_document": "tr-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: FDA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.9,
+      "revenue_growth_pct": 1.3
+    },
+    {
+      "ticker": "GBX",
+      "accession": "0001193125-25-253612",
+      "cik": "0000923120",
+      "primary_document": "gbx-20250831.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed",
+        "regulatory action: EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.1,
+      "revenue_growth_pct": -8.6
+    },
+    {
+      "ticker": "ROCK",
+      "accession": "0000912562-26-000025",
+      "cik": "0000912562",
+      "primary_document": "rock-20251231.htm",
+      "triggers": [
+        "$176M impairment disclosed",
+        "acquisition $1.3B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.8,
+      "revenue_growth_pct": 11.0
+    },
+    {
+      "ticker": "SABR",
+      "accession": "0001628280-26-008800",
+      "cik": "0001597033",
+      "primary_document": "sabr-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.7,
+      "revenue_growth_pct": 0.9
+    },
+    {
+      "ticker": "OPLN",
+      "accession": "0001395942-26-000006",
+      "cik": "0001395942",
+      "primary_document": "opln-20251231.htm",
+      "triggers": [
+        "$219M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.2,
+      "revenue_growth_pct": 8.1
+    },
+    {
+      "ticker": "PBI",
+      "accession": "0001628280-26-009650",
+      "cik": "0000078814",
+      "primary_document": "pbi-20251231.htm",
+      "triggers": [
+        "$124M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.2,
+      "revenue_growth_pct": -6.6
+    },
+    {
+      "ticker": "ALG",
+      "accession": "0000897077-26-000016",
+      "cik": "0000897077",
+      "primary_document": "alg-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 9.5,
+      "revenue_growth_pct": -1.5
+    },
+    {
+      "ticker": "PRG",
+      "accession": "0001808834-26-000012",
+      "cik": "0001808834",
+      "primary_document": "prg-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: Federal Trade Commission (FTC)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.6,
+      "revenue_growth_pct": 0.4
+    },
+    {
+      "ticker": "PAHC",
+      "accession": "0001558370-25-011776",
+      "cik": "0001069899",
+      "primary_document": "pahc-20250630x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: FDA (Food and Drug Administration)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.5,
+      "revenue_growth_pct": 27.3
+    },
+    {
+      "ticker": "NHC",
+      "accession": "0001437749-26-005910",
+      "cik": "0001047335",
+      "primary_document": "nhc20251231_10k.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.4,
+      "revenue_growth_pct": 16.1
+    },
+    {
+      "ticker": "WWW",
+      "accession": "0001628280-26-012614",
+      "cik": "0000110471",
+      "primary_document": "www-20260103.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.0,
+      "revenue_growth_pct": 6.8
+    },
+    {
+      "ticker": "SMP",
+      "accession": "0000093389-26-000012",
+      "cik": "0000093389",
+      "primary_document": "smp-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "litigation with disclosed exposure $128M+"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.6,
+      "revenue_growth_pct": 22.4
+    },
+    {
+      "ticker": "KMT",
+      "accession": "0000055242-25-000068",
+      "cik": "0000055242",
+      "primary_document": "kmt-20250630.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.3,
+      "revenue_growth_pct": -3.9
+    },
+    {
+      "ticker": "APOG",
+      "accession": "0000006845-26-000023",
+      "cik": "0000006845",
+      "primary_document": "apog-20260228.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.0,
+      "revenue_growth_pct": 3.2
+    },
+    {
+      "ticker": "DXC",
+      "accession": "0001688568-25-000029",
+      "cik": "0001688568",
+      "primary_document": "dxc-20250331.htm",
+      "triggers": [
+        "litigation with disclosed exposure $694M+",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.4,
+      "revenue_growth_pct": -5.8
+    },
+    {
+      "ticker": "CWK",
+      "accession": "0001628369-26-000008",
+      "cik": "0001628369",
+      "primary_document": "cwk-20251231.htm",
+      "triggers": [
+        "$177M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.4,
+      "revenue_growth_pct": 8.9
+    },
+    {
+      "ticker": "MBC",
+      "accession": "0001941365-26-000006",
+      "cik": "0001941365",
+      "primary_document": "mbc-20251228.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: U.S. Department of Commerce and U.S. International Trade Commission"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.4,
+      "revenue_growth_pct": 1.3
+    },
+    {
+      "ticker": "GIII",
+      "accession": "0001104659-26-033891",
+      "cik": "0000821002",
+      "primary_document": "giii-20260131x10k.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.7,
+      "revenue_growth_pct": -7.0
+    },
+    {
+      "ticker": "SCL",
+      "accession": "0001193125-26-074976",
+      "cik": "0000094049",
+      "primary_document": "scl-20251231.htm",
+      "triggers": [
+        "6 pending litigation matter(s) disclosed",
+        "regulatory action: USEPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.4,
+      "revenue_growth_pct": 7.0
+    },
+    {
+      "ticker": "THO",
+      "accession": "0000730263-25-000019",
+      "cik": "0000730263",
+      "primary_document": "tho-20250731.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.1,
+      "revenue_growth_pct": -4.6
+    },
+    {
+      "ticker": "ASTH",
+      "accession": "0001193125-26-103128",
+      "cik": "0001083446",
+      "primary_document": "asth-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.5,
+      "revenue_growth_pct": 56.4
+    },
+    {
+      "ticker": "CVI",
+      "accession": "0001376139-26-000014",
+      "cik": "0001376139",
+      "primary_document": "cvi-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.5,
+      "revenue_growth_pct": -5.0
+    },
+    {
+      "ticker": "ARCB",
+      "accession": "0001104659-26-019699",
+      "cik": "0000894405",
+      "primary_document": "arcb-20251231x10k.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Environmental Protection Agency (EPA)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.3,
+      "revenue_growth_pct": -4.0
+    },
+    {
+      "ticker": "WGO",
+      "accession": "0000107687-25-000034",
+      "cik": "0000107687",
+      "primary_document": "wgo-20250830.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "3 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.0,
+      "revenue_growth_pct": -5.9
+    },
+    {
+      "ticker": "VYX",
+      "accession": "0000070866-26-000006",
+      "cik": "0000070866",
+      "primary_document": "ncr-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $111M+",
+        "divestiture $2.5B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.0,
+      "revenue_growth_pct": -4.6
+    },
+    {
+      "ticker": "WERN",
+      "accession": "0000793074-26-000071",
+      "cik": "0000793074",
+      "primary_document": "wern-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.4,
+      "revenue_growth_pct": -1.8
+    },
+    {
+      "ticker": "OMCL",
+      "accession": "0000926326-26-000006",
+      "cik": "0000926326",
+      "primary_document": "omcl-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.2,
+      "revenue_growth_pct": 6.5
+    },
+    {
+      "ticker": "NVRI",
+      "accession": "0000045876-26-000010",
+      "cik": "0000045876",
+      "primary_document": "nvri-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "merger $3.0B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.2,
+      "revenue_growth_pct": -4.4
+    },
+    {
+      "ticker": "OLN",
+      "accession": "0000074303-26-000027",
+      "cik": "0000074303",
+      "primary_document": "oln-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $185M+",
+        "regulatory action: U.S. Environmental Protection Agency"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.1,
+      "revenue_growth_pct": 3.7
+    },
+    {
+      "ticker": "CUBI",
+      "accession": "0001488813-26-000029",
+      "cik": "0001488813",
+      "primary_document": "cubi-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "regulatory action: Commonwealth of Pennsylvania Department of Banking and Securities"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 14.7
+    },
+    {
+      "ticker": "GPI",
+      "accession": "0001031203-26-000064",
+      "cik": "0001031203",
+      "primary_document": "gpi-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: EPA (U.S. Environmental Protection Agency)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 13.2
+    },
+    {
+      "ticker": "CXW",
+      "accession": "0001193125-26-060669",
+      "cik": "0001070985",
+      "primary_document": "cxw-20251231.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed",
+        "regulatory action: Department of Justice"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.7
+    },
+    {
+      "ticker": "BANC",
+      "accession": "0001628280-26-012946",
+      "cik": "0001169770",
+      "primary_document": "banc-20251231.htm",
+      "triggers": [
+        "$1.4B+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 11.6
+    },
+    {
+      "ticker": "GTY",
+      "accession": "0001193125-26-048965",
+      "cik": "0001052752",
+      "primary_document": "gty-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $150M+",
+        "regulatory action: EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 9.0
+    },
+    {
+      "ticker": "GEO",
+      "accession": "0001193125-26-071747",
+      "cik": "0000923796",
+      "primary_document": "geo-20251231.htm",
+      "triggers": [
+        "4 pending litigation matter(s) disclosed",
+        "regulatory action: New Mexico Taxation and Revenue Department"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 8.6
+    },
+    {
+      "ticker": "CFFN",
+      "accession": "0001490906-25-000033",
+      "cik": "0001490906",
+      "primary_document": "cffn-20250930.htm",
+      "triggers": [
+        "$206M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.0
+    },
+    {
+      "ticker": "CASH",
+      "accession": "0000907471-25-000116",
+      "cik": "0000907471",
+      "primary_document": "cash-20250930.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed",
+        "restatement of prior-period financials mentioned"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.3
+    },
+    {
+      "ticker": "FTRE",
+      "accession": "0001628280-26-012244",
+      "cik": "0001965040",
+      "primary_document": "ftre-20251231.htm",
+      "triggers": [
+        "$798M+ impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 1.0
+    },
+    {
+      "ticker": "BFH",
+      "accession": "0001101215-26-000016",
+      "cik": "0001101215",
+      "primary_document": "bfh-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $775M+",
+        "2 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.2
+    },
+    {
+      "ticker": "GNW",
+      "accession": "0001628280-26-012828",
+      "cik": "0001276520",
+      "primary_document": "gnw-20251231.htm",
+      "triggers": [
+        "7 pending litigation matter(s) disclosed",
+        "5 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.1
+    },
+    {
+      "ticker": "PK",
+      "accession": "0001617406-26-000006",
+      "cik": "0001617406",
+      "primary_document": "pk-20251231.htm",
+      "triggers": [
+        "$318M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "RWT",
+      "accession": "0000930236-26-000007",
+      "cik": "0000930236",
+      "primary_document": "rwt-20251231.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed",
+        "regulatory action: Washington State Department of Financial Institutions"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "NGVT",
+      "accession": "0001653477-26-000014",
+      "cik": "0001653477",
+      "primary_document": "ngvt-20251231.htm",
+      "triggers": [
+        "$307M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.7
+    },
+    {
+      "ticker": "BTU",
+      "accession": "0001064728-26-000006",
+      "cik": "0001064728",
+      "primary_document": "btu-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: EPA, Department of Justice"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -8.9
+    },
+    {
+      "ticker": "AMR",
+      "accession": "0001704715-26-000010",
+      "cik": "0001704715",
+      "primary_document": "amr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "regulatory action: EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -28.0
+    },
+    {
+      "ticker": "RXO",
+      "accession": "0001929561-26-000013",
+      "cik": "0001929561",
+      "primary_document": "rxo-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed",
+        "acquisition $1.0B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -1.4,
+      "revenue_growth_pct": 26.2
+    },
+    {
+      "ticker": "AMN",
+      "accession": "0001628280-26-009918",
+      "cik": "0001142750",
+      "primary_document": "amn-20251231.htm",
+      "triggers": [
+        "$123M impairment disclosed",
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -2.0,
+      "revenue_growth_pct": -8.5
+    },
+    {
+      "ticker": "PII",
+      "accession": "0001628280-26-008033",
+      "cik": "0000931015",
+      "primary_document": "pii-20251231.htm",
+      "triggers": [
+        "$330M impairment disclosed",
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -4.9,
+      "revenue_growth_pct": -0.3
+    },
+    {
+      "ticker": "ROG",
+      "accession": "0000084748-26-000007",
+      "cik": "0000084748",
+      "primary_document": "rog-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed",
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -5.6,
+      "revenue_growth_pct": -2.3
+    },
+    {
+      "ticker": "CC",
+      "accession": "0001193125-26-065201",
+      "cik": "0001627223",
+      "primary_document": "cc-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $943M+",
+        "regulatory action: EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -16.6,
+      "revenue_growth_pct": 0.4
+    },
+    {
+      "ticker": "CNS",
+      "accession": "0001284812-26-000011",
+      "cik": "0001284812",
+      "primary_document": "cns-20251231.htm",
+      "triggers": [
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 32.0,
+      "revenue_growth_pct": 7.5
+    },
+    {
+      "ticker": "WRLD",
+      "accession": "0000108385-25-000041",
+      "cik": "0000108385",
+      "primary_document": "wrld-20250331.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 27.4,
+      "revenue_growth_pct": -1.5
+    },
+    {
+      "ticker": "VRRM",
+      "accession": "0001193125-26-067293",
+      "cik": "0001682745",
+      "primary_document": "vrrm-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 24.4,
+      "revenue_growth_pct": 11.4
+    },
+    {
+      "ticker": "CSR",
+      "accession": "0000798359-26-000014",
+      "cik": "0000798359",
+      "primary_document": "csr-20251231.htm",
+      "triggers": [
+        "regulatory action: Federal Trade Commission, U.S. Justice Department and State Attorneys General"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 23.6,
+      "revenue_growth_pct": 4.9
+    },
+    {
+      "ticker": "WAY",
+      "accession": "0001990354-26-000011",
+      "cik": "0001990354",
+      "primary_document": "way-20251231.htm",
+      "triggers": [
+        "acquisition $1.3B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 22.7,
+      "revenue_growth_pct": 16.5
+    },
+    {
+      "ticker": "HTO",
+      "accession": "0001628280-26-012438",
+      "cik": "0000766829",
+      "primary_document": "hto-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 22.1,
+      "revenue_growth_pct": 6.9
+    },
+    {
+      "ticker": "IPAR",
+      "accession": "0001753926-26-000464",
+      "cik": "0000822663",
+      "primary_document": "ipar-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 18.2,
+      "revenue_growth_pct": 2.5
+    },
+    {
+      "ticker": "CWT",
+      "accession": "0001628280-26-012444",
+      "cik": "0001035201",
+      "primary_document": "cwt-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 16.9,
+      "revenue_growth_pct": -3.5
+    },
+    {
+      "ticker": "WEN",
+      "accession": "0000030697-26-000009",
+      "cik": "0000030697",
+      "primary_document": "wen-20251228.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 15.8,
+      "revenue_growth_pct": -3.1
+    },
+    {
+      "ticker": "BBWI",
+      "accession": "0000701985-26-000008",
+      "cik": "0000701985",
+      "primary_document": "bbwi-20260131.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 15.4,
+      "revenue_growth_pct": -0.2
+    },
+    {
+      "ticker": "PDFS",
+      "accession": "0001437749-26-005366",
+      "cik": "0001120914",
+      "primary_document": "pdfs20251231d_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 14.4,
+      "revenue_growth_pct": 22.0
+    },
+    {
+      "ticker": "WLY",
+      "accession": "0000107140-25-000081",
+      "cik": "0000107140",
+      "primary_document": "jwa-20250430.htm",
+      "triggers": [
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.2,
+      "revenue_growth_pct": -10.4
+    },
+    {
+      "ticker": "DGII",
+      "accession": "0000854775-25-000026",
+      "cik": "0000854775",
+      "primary_document": "dgii-20250930.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.1,
+      "revenue_growth_pct": 1.5
+    },
+    {
+      "ticker": "APLE",
+      "accession": "0001193125-26-064008",
+      "cik": "0001418121",
+      "primary_document": "aple-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.1,
+      "revenue_growth_pct": -1.3
+    },
+    {
+      "ticker": "TDC",
+      "accession": "0001628280-26-012671",
+      "cik": "0000816761",
+      "primary_document": "tdc-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $480M+"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.3,
+      "revenue_growth_pct": -5.0
+    },
+    {
+      "ticker": "ACMR",
+      "accession": "0001628280-26-013231",
+      "cik": "0001680062",
+      "primary_document": "acmr-20251231.htm",
+      "triggers": [
+        "regulatory action: U.S. Bureau of Industry and Security (BIS)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.2,
+      "revenue_growth_pct": 15.2
+    },
+    {
+      "ticker": "MHO",
+      "accession": "0000799292-26-000006",
+      "cik": "0000799292",
+      "primary_document": "mho-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.9,
+      "revenue_growth_pct": -1.9
+    },
+    {
+      "ticker": "RH",
+      "accession": "0001104659-26-037992",
+      "cik": "0001528849",
+      "primary_document": "rh-20260131x10k.htm",
+      "triggers": [
+        "6 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.3,
+      "revenue_growth_pct": 8.1
+    },
+    {
+      "ticker": "NXRT",
+      "accession": "0001193125-26-077343",
+      "cik": "0001620393",
+      "primary_document": "nxrt-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $1.3B+"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.1,
+      "revenue_growth_pct": -3.2
+    },
+    {
+      "ticker": "MD",
+      "accession": "0001193125-26-058074",
+      "cik": "0000893949",
+      "primary_document": "md-20251231.htm",
+      "triggers": [
+        "$151M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.9,
+      "revenue_growth_pct": -4.9
+    },
+    {
+      "ticker": "KNTK",
+      "accession": "0001692787-26-000048",
+      "cik": "0001692787",
+      "primary_document": "apa-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 9.3,
+      "revenue_growth_pct": 19.0
+    },
+    {
+      "ticker": "DXPE",
+      "accession": "0001628280-26-012382",
+      "cik": "0001020710",
+      "primary_document": "dxpe-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.8,
+      "revenue_growth_pct": 11.9
+    },
+    {
+      "ticker": "TPH",
+      "accession": "0001561680-26-000008",
+      "cik": "0001561680",
+      "primary_document": "tph-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.4,
+      "revenue_growth_pct": -23.2
+    },
+    {
+      "ticker": "AMWD",
+      "accession": "0000794619-25-000061",
+      "cik": "0000794619",
+      "primary_document": "amwd-20250430.htm",
+      "triggers": [
+        "regulatory action: U.S. Department of Commerce"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.2,
+      "revenue_growth_pct": -7.5
+    },
+    {
+      "ticker": "UVV",
+      "accession": "0000102037-25-000028",
+      "cik": "0000102037",
+      "primary_document": "uvv-20250331.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.9,
+      "revenue_growth_pct": 7.2
+    },
+    {
+      "ticker": "IOSP",
+      "accession": "0001193125-26-056502",
+      "cik": "0001054905",
+      "primary_document": "iosp-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.3,
+      "revenue_growth_pct": -3.6
+    },
+    {
+      "ticker": "BOX",
+      "accession": "0001193125-26-098466",
+      "cik": "0001372612",
+      "primary_document": "box-20260131.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.1,
+      "revenue_growth_pct": 8.0
+    },
+    {
+      "ticker": "OPCH",
+      "accession": "0001014739-26-000008",
+      "cik": "0001014739",
+      "primary_document": "bios-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.0,
+      "revenue_growth_pct": 13.0
+    },
+    {
+      "ticker": "SIG",
+      "accession": "0000832988-26-000055",
+      "cik": "0000832988",
+      "primary_document": "sig-20260131.htm",
+      "triggers": [
+        "$372M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.8,
+      "revenue_growth_pct": 1.6
+    },
+    {
+      "ticker": "CXM",
+      "accession": "0001569345-26-000015",
+      "cik": "0001569345",
+      "primary_document": "cxm-20260131.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.7,
+      "revenue_growth_pct": 7.6
+    },
+    {
+      "ticker": "PRLB",
+      "accession": "0001443669-26-000010",
+      "cik": "0001443669",
+      "primary_document": "prlb-20251231.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.7,
+      "revenue_growth_pct": 6.4
+    },
+    {
+      "ticker": "KALU",
+      "accession": "0001193125-26-059575",
+      "cik": "0000811596",
+      "primary_document": "kalu-20251231.htm",
+      "triggers": [
+        "restatement of prior-period financials mentioned"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.6,
+      "revenue_growth_pct": 11.5
+    },
+    {
+      "ticker": "HNI",
+      "accession": "0000048287-26-000084",
+      "cik": "0000048287",
+      "primary_document": "hni-20260103.htm",
+      "triggers": [
+        "acquisition $1.9B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.4,
+      "revenue_growth_pct": 12.4
+    },
+    {
+      "ticker": "VSCO",
+      "accession": "0001856437-26-000004",
+      "cik": "0001856437",
+      "primary_document": "vsco-20260131.htm",
+      "triggers": [
+        "$120M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.1,
+      "revenue_growth_pct": 5.2
+    },
+    {
+      "ticker": "HCSG",
+      "accession": "0000731012-26-000009",
+      "cik": "0000731012",
+      "primary_document": "hcsg-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.7,
+      "revenue_growth_pct": 7.1
+    },
+    {
+      "ticker": "BL",
+      "accession": "0001628280-26-011915",
+      "cik": "0001666134",
+      "primary_document": "bl-20251231.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.6,
+      "revenue_growth_pct": 7.2
+    },
+    {
+      "ticker": "LZ",
+      "accession": "0001286139-26-000012",
+      "cik": "0001286139",
+      "primary_document": "lz-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.3,
+      "revenue_growth_pct": 10.9
+    },
+    {
+      "ticker": "BJRI",
+      "accession": "0001193125-26-083331",
+      "cik": "0001013488",
+      "primary_document": "bjri-20251230.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.3,
+      "revenue_growth_pct": 3.1
+    },
+    {
+      "ticker": "SHOO",
+      "accession": "0001628280-26-012995",
+      "cik": "0000913241",
+      "primary_document": "shoo-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.2,
+      "revenue_growth_pct": 11.0
+    },
+    {
+      "ticker": "EYE",
+      "accession": "0001628280-26-014379",
+      "cik": "0001710155",
+      "primary_document": "eye-20260103.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.9,
+      "revenue_growth_pct": 9.0
+    },
+    {
+      "ticker": "BHE",
+      "accession": "0001193125-26-064849",
+      "cik": "0000863436",
+      "primary_document": "bhe-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.9,
+      "revenue_growth_pct": 0.1
+    },
+    {
+      "ticker": "BCC",
+      "accession": "0001328581-26-000006",
+      "cik": "0001328581",
+      "primary_document": "bcc-20251231.htm",
+      "triggers": [
+        "regulatory action: Oregon Department of Environmental Quality, EPA"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.9,
+      "revenue_growth_pct": -4.8
+    },
+    {
+      "ticker": "SAH",
+      "accession": "0001628280-26-010570",
+      "cik": "0001043509",
+      "primary_document": "sah-20251231.htm",
+      "triggers": [
+        "$166M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.4,
+      "revenue_growth_pct": 6.5
+    },
+    {
+      "ticker": "VSTS",
+      "accession": "0001628280-25-054597",
+      "cik": "0001967649",
+      "primary_document": "vsts-20251003.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.4,
+      "revenue_growth_pct": -2.5
+    },
+    {
+      "ticker": "ANDE",
+      "accession": "0000821026-26-000010",
+      "cik": "0000821026",
+      "primary_document": "ande-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.0,
+      "revenue_growth_pct": -2.2
+    },
+    {
+      "ticker": "DAN",
+      "accession": "0001437749-26-006076",
+      "cik": "0000026780",
+      "primary_document": "dan20251231_10k.htm",
+      "triggers": [
+        "divestiture $2.7B disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.9,
+      "revenue_growth_pct": -3.0
+    },
+    {
+      "ticker": "CBRL",
+      "accession": "0001104659-25-093663",
+      "cik": "0001067294",
+      "primary_document": "cbrl-20250801x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.6,
+      "revenue_growth_pct": 0.4
+    },
+    {
+      "ticker": "HLIT",
+      "accession": "0001193125-26-067506",
+      "cik": "0000851310",
+      "primary_document": "hlit-20251231.htm",
+      "triggers": [
+        "regulatory action: U.S. Treasury Department - Office of Foreign Assets Control (OFAC)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.5,
+      "revenue_growth_pct": -26.1
+    },
+    {
+      "ticker": "RHI",
+      "accession": "0000315213-26-000006",
+      "cik": "0000315213",
+      "primary_document": "rhi-20251231.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.4,
+      "revenue_growth_pct": -7.2
+    },
+    {
+      "ticker": "MNRO",
+      "accession": "0001562762-25-000146",
+      "cik": "0000876427",
+      "primary_document": "mnro-20250329x10k.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.1,
+      "revenue_growth_pct": -6.4
+    },
+    {
+      "ticker": "ADNT",
+      "accession": "0001670541-25-000152",
+      "cik": "0001670541",
+      "primary_document": "adnt-20250930.htm",
+      "triggers": [
+        "$333M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.8,
+      "revenue_growth_pct": -1.0
+    },
+    {
+      "ticker": "RNST",
+      "accession": "0000715072-26-000017",
+      "cik": "0000715072",
+      "primary_document": "rnst-20251231.htm",
+      "triggers": [
+        "material weakness in internal controls disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 37.7
+    },
+    {
+      "ticker": "TBBK",
+      "accession": "0001295401-26-000002",
+      "cik": "0001295401",
+      "primary_document": "tbbk-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 31.9
+    },
+    {
+      "ticker": "TFIN",
+      "accession": "0001539638-26-000007",
+      "cik": "0001539638",
+      "primary_document": "tfin-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 24.8
+    },
+    {
+      "ticker": "INDB",
+      "accession": "0000776901-26-000058",
+      "cik": "0000776901",
+      "primary_document": "indb-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 24.3
+    },
+    {
+      "ticker": "PRSU",
+      "accession": "0001193125-26-071582",
+      "cik": "0000884219",
+      "primary_document": "prsu-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 23.4
+    },
+    {
+      "ticker": "CATY",
+      "accession": "0001437749-26-006157",
+      "cik": "0000861842",
+      "primary_document": "caty20251231c_10k.htm",
+      "triggers": [
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.1
+    },
+    {
+      "ticker": "ACAD",
+      "accession": "0001193125-26-072519",
+      "cik": "0001070494",
+      "primary_document": "acad-20251231.htm",
+      "triggers": [
+        "6 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 11.9
+    },
+    {
+      "ticker": "SPNT",
+      "accession": "0001576018-26-000032",
+      "cik": "0001576018",
+      "primary_document": "spnt-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 10.7
+    },
+    {
+      "ticker": "MGEE",
+      "accession": "0001193125-26-067036",
+      "cik": "0001161728",
+      "primary_document": "mgee-20251231.htm",
+      "triggers": [
+        "planned capex $1.9B next fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 7.5
+    },
+    {
+      "ticker": "NWN",
+      "accession": "0001733998-26-000012",
+      "cik": "0001733998",
+      "primary_document": "nwn-20251231.htm",
+      "triggers": [
+        "4 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.5
+    },
+    {
+      "ticker": "LKFN",
+      "accession": "0000721994-26-000018",
+      "cik": "0000721994",
+      "primary_document": "lkfn-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.1
+    },
+    {
+      "ticker": "SAFE",
+      "accession": "0001095651-26-000010",
+      "cik": "0001095651",
+      "primary_document": "safe-20251231x10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.4
+    },
+    {
+      "ticker": "HOPE",
+      "accession": "0001128361-26-000011",
+      "cik": "0001128361",
+      "primary_document": "hope-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.0
+    },
+    {
+      "ticker": "MCRI",
+      "accession": "0001104659-26-018717",
+      "cik": "0000907242",
+      "primary_document": "mcri-20251231x10k.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 4.4
+    },
+    {
+      "ticker": "WSR",
+      "accession": "0001437749-26-007232",
+      "cik": "0001175535",
+      "primary_document": "wstr20251231_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 4.3
+    },
+    {
+      "ticker": "IRT",
+      "accession": "0001437749-26-004376",
+      "cik": "0001466085",
+      "primary_document": "irt20251231_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.8
+    },
+    {
+      "ticker": "CVBF",
+      "accession": "0001193125-26-083221",
+      "cik": "0000354647",
+      "primary_document": "cvbf-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.71
+    },
+    {
+      "ticker": "ENR",
+      "accession": "0001632790-25-000091",
+      "cik": "0001632790",
+      "primary_document": "enr-20250930.htm",
+      "triggers": [
+        "2 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.3
+    },
+    {
+      "ticker": "FFBC",
+      "accession": "0000708955-26-000028",
+      "cik": "0000708955",
+      "primary_document": "ffbc-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "IIIN",
+      "accession": "0001437749-25-031597",
+      "cik": "0000764401",
+      "primary_document": "iiin20250927_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "MATW",
+      "accession": "0000063296-25-000070",
+      "cik": "0000063296",
+      "primary_document": "matw-20250930.htm",
+      "triggers": [
+        "3 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "FUL",
+      "accession": "0001437749-26-001767",
+      "cik": "0000039368",
+      "primary_document": "ful20251130_10k.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.7
+    },
+    {
+      "ticker": "SFNC",
+      "accession": "0001628280-26-011618",
+      "cik": "0000090498",
+      "primary_document": "sfnc-20251231.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -5.2
+    },
+    {
+      "ticker": "MBIN",
+      "accession": "0001104659-26-021549",
+      "cik": "0001629019",
+      "primary_document": "mbin-20251231x10k.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -7.8
+    },
+    {
+      "ticker": "TWO",
+      "accession": "0001465740-26-000009",
+      "cik": "0001465740",
+      "primary_document": "two-20251231.htm",
+      "triggers": [
+        "litigation with disclosed exposure $375M+"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -8.1
+    },
+    {
+      "ticker": "ABR",
+      "accession": "0001253986-26-000019",
+      "cik": "0001253986",
+      "primary_document": "abr-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -11.2
+    },
+    {
+      "ticker": "GNL",
+      "accession": "0001628280-26-011696",
+      "cik": "0001526113",
+      "primary_document": "gnl-20251231.htm",
+      "triggers": [
+        "$158M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -13.1
+    },
+    {
+      "ticker": "NSP",
+      "accession": "0001000753-26-000011",
+      "cik": "0001000753",
+      "primary_document": "nsp-20251231.htm",
+      "triggers": [
+        "CFO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.1,
+      "revenue_growth_pct": 3.5
+    },
+    {
+      "ticker": "UNFI",
+      "accession": "0001020859-25-000054",
+      "cik": "0001020859",
+      "primary_document": "unfi-20250802.htm",
+      "triggers": [
+        "regulatory action: U.S. Environmental Protection Agency (EPA)"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.1,
+      "revenue_growth_pct": 2.6
+    },
+    {
+      "ticker": "AESI",
+      "accession": "0001193125-26-067145",
+      "cik": "0001984060",
+      "primary_document": "aesi-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -1.0,
+      "revenue_growth_pct": 3.7
+    },
+    {
+      "ticker": "MMI",
+      "accession": "0001628280-26-012419",
+      "cik": "0001578732",
+      "primary_document": "mmi-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -1.8,
+      "revenue_growth_pct": 8.5
+    },
+    {
+      "ticker": "OXM",
+      "accession": "0000075288-26-000026",
+      "cik": "0000075288",
+      "primary_document": "oxm-20260131.htm",
+      "triggers": [
+        "$111M impairment disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -2.1,
+      "revenue_growth_pct": -2.6
+    },
+    {
+      "ticker": "BILL",
+      "accession": "0001786352-25-000037",
+      "cik": "0001786352",
+      "primary_document": "bill-20250630.htm",
+      "triggers": [
+        "1 regulatory action(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -5.5,
+      "revenue_growth_pct": 13.3
+    },
+    {
+      "ticker": "SHEN",
+      "accession": "0000354963-26-000125",
+      "cik": "0000354963",
+      "primary_document": "shen-20251231.htm",
+      "triggers": [
+        "CEO changed during fiscal year"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -6.5,
+      "revenue_growth_pct": 9.1
+    },
+    {
+      "ticker": "HTLD",
+      "accession": "0000799233-26-000006",
+      "cik": "0000799233",
+      "primary_document": "htld-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -7.1,
+      "revenue_growth_pct": -23.1
+    },
+    {
+      "ticker": "BLFS",
+      "accession": "0001628280-26-012294",
+      "cik": "0000834365",
+      "primary_document": "blfs-20251231.htm",
+      "triggers": [
+        "1 pending litigation matter(s) disclosed"
+      ],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -23.9,
+      "revenue_growth_pct": 29.0
+    },
+    {
+      "ticker": "SLG",
+      "accession": "0001628280-26-008669",
+      "cik": "0001040971",
+      "primary_document": "slg-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 37.3,
+      "revenue_growth_pct": 13.2
+    },
+    {
+      "ticker": "APAM",
+      "accession": "0001517302-26-000047",
+      "cik": "0001517302",
+      "primary_document": "apam-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 33.4,
+      "revenue_growth_pct": 7.6
+    },
+    {
+      "ticker": "QLYS",
+      "accession": "0001107843-26-000008",
+      "cik": "0001107843",
+      "primary_document": "qlys-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 32.9,
+      "revenue_growth_pct": 10.1
+    },
+    {
+      "ticker": "JOE",
+      "accession": "0001104659-26-019676",
+      "cik": "0000745308",
+      "primary_document": "joe-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 28.5,
+      "revenue_growth_pct": 27.4
+    },
+    {
+      "ticker": "CARG",
+      "accession": "0001193125-26-059435",
+      "cik": "0001494259",
+      "primary_document": "carg-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 26.9,
+      "revenue_growth_pct": 13.7
+    },
+    {
+      "ticker": "WING",
+      "accession": "0001636222-26-000008",
+      "cik": "0001636222",
+      "primary_document": "wing-20251227.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 25.7,
+      "revenue_growth_pct": 11.4
+    },
+    {
+      "ticker": "PLAB",
+      "accession": "0001140361-25-045801",
+      "cik": "0000810136",
+      "primary_document": "ef20057458_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 24.5,
+      "revenue_growth_pct": -2.0
+    },
+    {
+      "ticker": "AAMI",
+      "accession": "0001628280-26-012856",
+      "cik": "0001748824",
+      "primary_document": "aami-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 23.4,
+      "revenue_growth_pct": 11.5
+    },
+    {
+      "ticker": "EPAC",
+      "accession": "0000006955-25-000030",
+      "cik": "0000006955",
+      "primary_document": "epac-20250831.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 21.5,
+      "revenue_growth_pct": 4.6
+    },
+    {
+      "ticker": "EXPO",
+      "accession": "0001193125-26-082508",
+      "cik": "0000851520",
+      "primary_document": "expo-20260102.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 20.6,
+      "revenue_growth_pct": 4.2
+    },
+    {
+      "ticker": "VRTS",
+      "accession": "0000883237-26-000009",
+      "cik": "0000883237",
+      "primary_document": "vrts-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 19.8,
+      "revenue_growth_pct": -6.0
+    },
+    {
+      "ticker": "DFIN",
+      "accession": "0001193125-26-054586",
+      "cik": "0001669811",
+      "primary_document": "dfin-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 18.4,
+      "revenue_growth_pct": -1.9
+    },
+    {
+      "ticker": "TDW",
+      "accession": "0001437749-26-006391",
+      "cik": "0000098222",
+      "primary_document": "tdw20251231_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 16.3,
+      "revenue_growth_pct": 0.5
+    },
+    {
+      "ticker": "SPSC",
+      "accession": "0001092699-26-000012",
+      "cik": "0001092699",
+      "primary_document": "spsc-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 15.7,
+      "revenue_growth_pct": 17.8
+    },
+    {
+      "ticker": "BRC",
+      "accession": "0000746598-25-000045",
+      "cik": "0000746598",
+      "primary_document": "brc-20250731.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 15.6,
+      "revenue_growth_pct": 12.8
+    },
+    {
+      "ticker": "LRN",
+      "accession": "0001558370-25-010334",
+      "cik": "0001157408",
+      "primary_document": "lrn-20250630x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 15.0,
+      "revenue_growth_pct": 17.9
+    },
+    {
+      "ticker": "CXT",
+      "accession": "0000025445-26-000009",
+      "cik": "0000025445",
+      "primary_document": "cxt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 14.9,
+      "revenue_growth_pct": 11.4
+    },
+    {
+      "ticker": "KAI",
+      "accession": "0000886346-26-000018",
+      "cik": "0000886346",
+      "primary_document": "kai-20260103.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 14.9,
+      "revenue_growth_pct": -0.1
+    },
+    {
+      "ticker": "XPEL",
+      "accession": "0001767258-26-000014",
+      "cik": "0001767258",
+      "primary_document": "xpel-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.2,
+      "revenue_growth_pct": 13.3
+    },
+    {
+      "ticker": "EZPW",
+      "accession": "0000876523-25-000094",
+      "cik": "0000876523",
+      "primary_document": "ezpw-20250930.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 13.0,
+      "revenue_growth_pct": 11.1
+    },
+    {
+      "ticker": "EEFT",
+      "accession": "0001554855-26-000131",
+      "cik": "0001029199",
+      "primary_document": "eeft-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.5,
+      "revenue_growth_pct": 6.4
+    },
+    {
+      "ticker": "KN",
+      "accession": "0001587523-26-000005",
+      "cik": "0001587523",
+      "primary_document": "kn-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.4,
+      "revenue_growth_pct": 7.2
+    },
+    {
+      "ticker": "HWKN",
+      "accession": "0000046250-25-000025",
+      "cik": "0000046250",
+      "primary_document": "hwkn-20250330.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.2,
+      "revenue_growth_pct": 6.0
+    },
+    {
+      "ticker": "AKR",
+      "accession": "0001193125-26-051677",
+      "cik": "0000899629",
+      "primary_document": "akr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 12.0,
+      "revenue_growth_pct": 14.2
+    },
+    {
+      "ticker": "SXI",
+      "accession": "0001437749-25-024450",
+      "cik": "0000310354",
+      "primary_document": "sxi20250630_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.8,
+      "revenue_growth_pct": 9.6
+    },
+    {
+      "ticker": "TILE",
+      "accession": "0000715787-26-000006",
+      "cik": "0000715787",
+      "primary_document": "tile-20251228.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.8,
+      "revenue_growth_pct": 5.4
+    },
+    {
+      "ticker": "UNIT",
+      "accession": "0001628280-26-013196",
+      "cik": "0002020795",
+      "primary_document": "unit-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.7,
+      "revenue_growth_pct": 91.4
+    },
+    {
+      "ticker": "VITL",
+      "accession": "0001193125-26-073423",
+      "cik": "0001579733",
+      "primary_document": "vitl-20251228.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.6,
+      "revenue_growth_pct": 25.3
+    },
+    {
+      "ticker": "USPH",
+      "accession": "0001140361-26-007170",
+      "cik": "0000885978",
+      "primary_document": "ef20060831_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 11.1,
+      "revenue_growth_pct": 16.3
+    },
+    {
+      "ticker": "SMPL",
+      "accession": "0001702744-25-000046",
+      "cik": "0001702744",
+      "primary_document": "atk-20250830.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.8,
+      "revenue_growth_pct": 9.0
+    },
+    {
+      "ticker": "CNK",
+      "accession": "0001193125-26-056015",
+      "cik": "0001385280",
+      "primary_document": "cnk-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 10.7,
+      "revenue_growth_pct": 2.1
+    },
+    {
+      "ticker": "KBH",
+      "accession": "0000795266-26-000017",
+      "cik": "0000795266",
+      "primary_document": "kbh-20251130.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 8.2,
+      "revenue_growth_pct": -10.0
+    },
+    {
+      "ticker": "NABL",
+      "accession": "0001834488-26-000007",
+      "cik": "0001834488",
+      "primary_document": "nabl-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 7.2,
+      "revenue_growth_pct": 9.7
+    },
+    {
+      "ticker": "PLUS",
+      "accession": "0001140361-25-020204",
+      "cik": "0001022408",
+      "primary_document": "ef20047615_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.8,
+      "revenue_growth_pct": -7.0
+    },
+    {
+      "ticker": "PGNY",
+      "accession": "0001551306-26-000020",
+      "cik": "0001551306",
+      "primary_document": "pgny-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.6,
+      "revenue_growth_pct": 10.4
+    },
+    {
+      "ticker": "WD",
+      "accession": "0001104659-26-020249",
+      "cik": "0001497770",
+      "primary_document": "wd-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.4,
+      "revenue_growth_pct": 9.0
+    },
+    {
+      "ticker": "LZB",
+      "accession": "0000057131-25-000029",
+      "cik": "0000057131",
+      "primary_document": "lzb-20250426.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 6.4,
+      "revenue_growth_pct": 3.0
+    },
+    {
+      "ticker": "STC",
+      "accession": "0000094344-26-000007",
+      "cik": "0000094344",
+      "primary_document": "stc-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.7,
+      "revenue_growth_pct": 18.2
+    },
+    {
+      "ticker": "TNC",
+      "accession": "0000097134-26-000008",
+      "cik": "0000097134",
+      "primary_document": "tnc-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.7,
+      "revenue_growth_pct": -6.5
+    },
+    {
+      "ticker": "THRM",
+      "accession": "0001193125-26-059602",
+      "cik": "0000903129",
+      "primary_document": "thrm-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.5,
+      "revenue_growth_pct": 2.9
+    },
+    {
+      "ticker": "VECO",
+      "accession": "0001104659-26-019711",
+      "cik": "0000103145",
+      "primary_document": "veco-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.4,
+      "revenue_growth_pct": -7.4
+    },
+    {
+      "ticker": "DLX",
+      "accession": "0000027996-26-000037",
+      "cik": "0000027996",
+      "primary_document": "dlx-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.3,
+      "revenue_growth_pct": 0.5
+    },
+    {
+      "ticker": "QTWO",
+      "accession": "0001410384-26-000006",
+      "cik": "0001410384",
+      "primary_document": "qtwo-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.0,
+      "revenue_growth_pct": 14.1
+    },
+    {
+      "ticker": "CERT",
+      "accession": "0001827090-26-000011",
+      "cik": "0001827090",
+      "primary_document": "cert-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 5.0,
+      "revenue_growth_pct": 8.7
+    },
+    {
+      "ticker": "WS",
+      "accession": "0000950170-25-099742",
+      "cik": "0001968487",
+      "primary_document": "ws-20250531.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.8,
+      "revenue_growth_pct": -9.8
+    },
+    {
+      "ticker": "ASTE",
+      "accession": "0000792987-26-000011",
+      "cik": "0000792987",
+      "primary_document": "aste-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.7,
+      "revenue_growth_pct": 8.1
+    },
+    {
+      "ticker": "LGIH",
+      "accession": "0001580670-26-000019",
+      "cik": "0001580670",
+      "primary_document": "lgih-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.7,
+      "revenue_growth_pct": -22.6
+    },
+    {
+      "ticker": "PZZA",
+      "accession": "0001628280-26-011965",
+      "cik": "0000901491",
+      "primary_document": "pzza-20251228.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.3,
+      "revenue_growth_pct": -0.3
+    },
+    {
+      "ticker": "PENG",
+      "accession": "0001616533-25-000061",
+      "cik": "0001616533",
+      "primary_document": "peng-20250829.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.2,
+      "revenue_growth_pct": 16.9
+    },
+    {
+      "ticker": "AEO",
+      "accession": "0001193125-26-132097",
+      "cik": "0000919012",
+      "primary_document": "aeo-20260131.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.1,
+      "revenue_growth_pct": 4.1
+    },
+    {
+      "ticker": "KSS",
+      "accession": "0001193125-26-115982",
+      "cik": "0000885639",
+      "primary_document": "kss-20260131.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 4.0,
+      "revenue_growth_pct": -3.8
+    },
+    {
+      "ticker": "LIF",
+      "accession": "0001581760-26-000016",
+      "cik": "0001581760",
+      "primary_document": "lifx-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.8,
+      "revenue_growth_pct": 32.0
+    },
+    {
+      "ticker": "ABM",
+      "accession": "0000771497-25-000031",
+      "cik": "0000771497",
+      "primary_document": "abm-20251031.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.6,
+      "revenue_growth_pct": 4.6
+    },
+    {
+      "ticker": "CHEF",
+      "accession": "0001517175-26-000005",
+      "cik": "0001517175",
+      "primary_document": "chef-20251226.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 3.5,
+      "revenue_growth_pct": 9.4
+    },
+    {
+      "ticker": "KWR",
+      "accession": "0001628280-26-010694",
+      "cik": "0000081362",
+      "primary_document": "kwr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.8,
+      "revenue_growth_pct": 2.7
+    },
+    {
+      "ticker": "SCSC",
+      "accession": "0000918965-25-000029",
+      "cik": "0000918965",
+      "primary_document": "scsc-20250630.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 2.8,
+      "revenue_growth_pct": -6.7
+    },
+    {
+      "ticker": "PRVA",
+      "accession": "0001759655-26-000010",
+      "cik": "0001759655",
+      "primary_document": "prva-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.6,
+      "revenue_growth_pct": 22.3
+    },
+    {
+      "ticker": "HZO",
+      "accession": "0001193125-25-284680",
+      "cik": "0001057060",
+      "primary_document": "hzo-20250930.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.5,
+      "revenue_growth_pct": -5.0
+    },
+    {
+      "ticker": "TRUP",
+      "accession": "0001371285-26-000018",
+      "cik": "0001371285",
+      "primary_document": "trup-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.0,
+      "revenue_growth_pct": 12.0
+    },
+    {
+      "ticker": "SCHL",
+      "accession": "0000866729-25-000020",
+      "cik": "0000866729",
+      "primary_document": "schl-20250531.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 1.0,
+      "revenue_growth_pct": 2.3
+    },
+    {
+      "ticker": "RAMP",
+      "accession": "0000733269-25-000030",
+      "cik": "0000733269",
+      "primary_document": "ramp-20250331.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.7,
+      "revenue_growth_pct": 13.0
+    },
+    {
+      "ticker": "PLMR",
+      "accession": "0001193125-26-067364",
+      "cik": "0001761312",
+      "primary_document": "plmr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 58.1
+    },
+    {
+      "ticker": "CURB",
+      "accession": "0001193125-26-043647",
+      "cik": "0002027317",
+      "primary_document": "curb-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 51.3
+    },
+    {
+      "ticker": "TMP",
+      "accession": "0001005817-26-000027",
+      "cik": "0001005817",
+      "primary_document": "tmp-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 48.9
+    },
+    {
+      "ticker": "ARR",
+      "accession": "0001428205-26-000029",
+      "cik": "0001428205",
+      "primary_document": "arr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 45.3
+    },
+    {
+      "ticker": "PMT",
+      "accession": "0001193125-26-057041",
+      "cik": "0001464423",
+      "primary_document": "pmt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 34.0
+    },
+    {
+      "ticker": "SBCF",
+      "accession": "0001628280-26-012787",
+      "cik": "0000730708",
+      "primary_document": "sbcf-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 26.6
+    },
+    {
+      "ticker": "LTC",
+      "accession": "0001104659-26-019178",
+      "cik": "0000887905",
+      "primary_document": "ltc-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 25.3
+    },
+    {
+      "ticker": "FBK",
+      "accession": "0001649749-26-000012",
+      "cik": "0001649749",
+      "primary_document": "fbk-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 23.0
+    },
+    {
+      "ticker": "NBTB",
+      "accession": "0001140361-26-007179",
+      "cik": "0000790359",
+      "primary_document": "ef20060005_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 20.8
+    },
+    {
+      "ticker": "CALX",
+      "accession": "0001406666-26-000005",
+      "cik": "0001406666",
+      "primary_document": "calx-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 20.3
+    },
+    {
+      "ticker": "HCI",
+      "accession": "0001193125-26-076743",
+      "cik": "0001400810",
+      "primary_document": "hci-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 20.1
+    },
+    {
+      "ticker": "FBNC",
+      "accession": "0000811589-26-000051",
+      "cik": "0000811589",
+      "primary_document": "fbnc-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 19.9
+    },
+    {
+      "ticker": "CPF",
+      "accession": "0000701347-26-000021",
+      "cik": "0000701347",
+      "primary_document": "cpf-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.4
+    },
+    {
+      "ticker": "CVCO",
+      "accession": "0000278166-25-000057",
+      "cik": "0000278166",
+      "primary_document": "cvco-20250329.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.3
+    },
+    {
+      "ticker": "DCOM",
+      "accession": "0000846617-26-000013",
+      "cik": "0000846617",
+      "primary_document": "dcom-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.3
+    },
+    {
+      "ticker": "NWBI",
+      "accession": "0001471265-26-000008",
+      "cik": "0001471265",
+      "primary_document": "nwbi-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 12.0
+    },
+    {
+      "ticker": "UFCS",
+      "accession": "0000101199-26-000015",
+      "cik": "0000101199",
+      "primary_document": "ufcs-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 10.6
+    },
+    {
+      "ticker": "BANF",
+      "accession": "0001193125-26-075954",
+      "cik": "0000760498",
+      "primary_document": "banf-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 9.4
+    },
+    {
+      "ticker": "FCF",
+      "accession": "0000712537-26-000013",
+      "cik": "0000712537",
+      "primary_document": "fcf-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 9.2
+    },
+    {
+      "ticker": "BANR",
+      "accession": "0000946673-26-000009",
+      "cik": "0000946673",
+      "primary_document": "banr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 8.5
+    },
+    {
+      "ticker": "UTL",
+      "accession": "0001193125-26-042983",
+      "cik": "0000755001",
+      "primary_document": "utl-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 8.3
+    },
+    {
+      "ticker": "BFS",
+      "accession": "0000907254-26-000006",
+      "cik": "0000907254",
+      "primary_document": "bfs-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 7.8
+    },
+    {
+      "ticker": "MTUS",
+      "accession": "0001193125-26-061042",
+      "cik": "0001598428",
+      "primary_document": "mtus-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.9
+    },
+    {
+      "ticker": "UE",
+      "accession": "0001611547-26-000022",
+      "cik": "0001611547",
+      "primary_document": "ue-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.1
+    },
+    {
+      "ticker": "HFWA",
+      "accession": "0001628280-26-012703",
+      "cik": "0001046025",
+      "primary_document": "hfwa-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.0
+    },
+    {
+      "ticker": "SHO",
+      "accession": "0001104659-26-021440",
+      "cik": "0001295810",
+      "primary_document": "sho-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 6.0
+    },
+    {
+      "ticker": "FIBK",
+      "accession": "0000860413-26-000011",
+      "cik": "0000860413",
+      "primary_document": "fibk-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.9
+    },
+    {
+      "ticker": "BNL",
+      "accession": "0001424182-26-000012",
+      "cik": "0001424182",
+      "primary_document": "bnl-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 5.2
+    },
+    {
+      "ticker": "XHR",
+      "accession": "0001628280-26-011060",
+      "cik": "0001616000",
+      "primary_document": "xhr-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 3.8
+    },
+    {
+      "ticker": "OFG",
+      "accession": "0001030469-26-000008",
+      "cik": "0001030469",
+      "primary_document": "ofg-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.8
+    },
+    {
+      "ticker": "AMSF",
+      "accession": "0001193125-26-082513",
+      "cik": "0001018979",
+      "primary_document": "amsf-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.7
+    },
+    {
+      "ticker": "NBHC",
+      "accession": "0001104659-26-019119",
+      "cik": "0001475841",
+      "primary_document": "nbhc-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 2.5
+    },
+    {
+      "ticker": "UHT",
+      "accession": "0001193125-26-071594",
+      "cik": "0000798783",
+      "primary_document": "uht-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.2
+    },
+    {
+      "ticker": "STBA",
+      "accession": "0000719220-26-000030",
+      "cik": "0000719220",
+      "primary_document": "stba-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.1
+    },
+    {
+      "ticker": "AVNT",
+      "accession": "0001122976-26-000039",
+      "cik": "0001122976",
+      "primary_document": "avnt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "BOH",
+      "accession": "0000046195-26-000015",
+      "cik": "0000046195",
+      "primary_document": "boh-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "CVSA",
+      "accession": "0001558370-25-010780",
+      "cik": "0000730464",
+      "primary_document": "atge-20250630x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "ETD",
+      "accession": "0001437749-25-027594",
+      "cik": "0000896156",
+      "primary_document": "eth20250630_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "ITRI",
+      "accession": "0000780571-26-000033",
+      "cik": "0000780571",
+      "primary_document": "itri-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "JJSF",
+      "accession": "0001437749-25-036456",
+      "cik": "0000785956",
+      "primary_document": "jjsf20250927_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "LXP",
+      "accession": "0000910108-26-000009",
+      "cik": "0000910108",
+      "primary_document": "lxp-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "MRTN",
+      "accession": "0001437749-26-005971",
+      "cik": "0000799167",
+      "primary_document": "mrtn20251231_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "NEOG",
+      "accession": "0000950170-25-100064",
+      "cik": "0000711377",
+      "primary_document": "neog-20250531.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "NSSC",
+      "accession": "0001558370-25-011750",
+      "cik": "0000069633",
+      "primary_document": "nssc-20250630x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "PEB",
+      "accession": "0001474098-26-000015",
+      "cik": "0001474098",
+      "primary_document": "peb-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "PRK",
+      "accession": "0000805676-26-000017",
+      "cik": "0000805676",
+      "primary_document": "prk-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "REX",
+      "accession": "0000930413-26-000937",
+      "cik": "0000744187",
+      "primary_document": "c115944_10k-ixbrl.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "SLVM",
+      "accession": "0001856485-26-000008",
+      "cik": "0001856485",
+      "primary_document": "syl-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "TRST",
+      "accession": "0001140361-26-009576",
+      "cik": "0000357301",
+      "primary_document": "ef20039040_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "UFPT",
+      "accession": "0001628280-26-012816",
+      "cik": "0000914156",
+      "primary_document": "ufpt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "WSFS",
+      "accession": "0000828944-26-000006",
+      "cik": "0000828944",
+      "primary_document": "wsfs-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": 0.0
+    },
+    {
+      "ticker": "ARI",
+      "accession": "0001193125-26-044725",
+      "cik": "0001467760",
+      "primary_document": "ari-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -1.1
+    },
+    {
+      "ticker": "HIW",
+      "accession": "0000921082-26-000005",
+      "cik": "0000921082",
+      "primary_document": "hiw-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.4
+    },
+    {
+      "ticker": "EIG",
+      "accession": "0001379041-26-000011",
+      "cik": "0001379041",
+      "primary_document": "eig-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.5
+    },
+    {
+      "ticker": "SBSI",
+      "accession": "0000705432-26-000034",
+      "cik": "0000705432",
+      "primary_document": "sbsi-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -2.7
+    },
+    {
+      "ticker": "WAFD",
+      "accession": "0000936528-25-000117",
+      "cik": "0000936528",
+      "primary_document": "wfsl-20250930.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -4.6
+    },
+    {
+      "ticker": "AAT",
+      "accession": "0001500217-26-000008",
+      "cik": "0001500217",
+      "primary_document": "aat-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -4.7
+    },
+    {
+      "ticker": "CCS",
+      "accession": "0001576940-26-000005",
+      "cik": "0001576940",
+      "primary_document": "ccs-20251231x10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -6.4
+    },
+    {
+      "ticker": "WABC",
+      "accession": "0001171843-26-001195",
+      "cik": "0000311094",
+      "primary_document": "wabc20251231_10k.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -12.2
+    },
+    {
+      "ticker": "FBRT",
+      "accession": "0001562528-26-000008",
+      "cik": "0001562528",
+      "primary_document": "bsprt-20251231.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": 0.0,
+      "revenue_growth_pct": -18.2
+    },
+    {
+      "ticker": "WOR",
+      "accession": "0000950170-25-100137",
+      "cik": "0000108516",
+      "primary_document": "wor-20250531.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -0.9,
+      "revenue_growth_pct": -7.4
+    },
+    {
+      "ticker": "ICHR",
+      "accession": "0001652535-26-000012",
+      "cik": "0001652535",
+      "primary_document": "ichr-20251226.htm",
+      "triggers": [],
+      "chokepoint_score": 0,
+      "operating_margin_pct": -4.1,
+      "revenue_growth_pct": 11.6
+    }
+  ]
+}
