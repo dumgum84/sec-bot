@@ -22,6 +22,8 @@ Run:
     py sec_report.py --days 45        # only filings from past 45 days
     py sec_report.py --top-n 300      # smaller, cheaper run
     py sec_report.py --refresh        # ignore cache, re-pay all LLM calls
+    py sec_report.py --tickers RDW,ASTS  # run on specific tickers only
+    py sec_report.py --tickers RDW,ASTS --chokepoints full  # full entity index
 
 Defaults match the standard "find under-followed opportunities" preset:
     --seed sp1500 --min-mcap-b 0.3 --max-mcap-b 10
@@ -134,7 +136,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
     # Imports happen inside the function so the script doesn't pay the
     # import cost (yfinance, anthropic, edgartools) just to print --help.
     from fetch import OUTPUT_DIR, DATA_DIR
-    from universe import build_universe, save_universe
+    from universe import build_universe, build_universe_from_tickers, save_universe
     from watcher import build_watch_queue, save_watch_queue
     from batch import run_batch, save_run_manifest
     import extract
@@ -154,13 +156,17 @@ def run_pipeline(args: argparse.Namespace) -> None:
 
     # ---------------------------------------------------------------------
     _banner(1, total_stages, "BUILD UNIVERSE")
-    universe = build_universe(
-        top_n=args.top_n,
-        seed=args.seed,
-        min_mcap_b=args.min_mcap_b,
-        max_mcap_b=args.max_mcap_b,
-        rank_by=args.rank_by,
-    )
+    if args.tickers:
+        ticker_list = [t.strip().upper() for t in args.tickers.split(",") if t.strip()]
+        universe = build_universe_from_tickers(ticker_list)
+    else:
+        universe = build_universe(
+            top_n=args.top_n,
+            seed=args.seed,
+            min_mcap_b=args.min_mcap_b,
+            max_mcap_b=args.max_mcap_b,
+            rank_by=args.rank_by,
+        )
     save_universe(universe)
 
     # ---------------------------------------------------------------------
@@ -259,6 +265,7 @@ def run_pipeline(args: argparse.Namespace) -> None:
         extractions, ranking,
         use_llm=True,
         refresh_summaries=args.refresh,
+        chokepoints_mode=args.chokepoints,
     )
     digest.DEFAULT_DIGEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     digest.DEFAULT_DIGEST_PATH.write_text(report_md, encoding="utf-8")
@@ -310,6 +317,10 @@ def main():
     parser.add_argument("--sort", default="ctmg",
                         choices=("ctmg", "ctgm", "tcmg", "tcgm"),
                         help="Sort order: c=chokepoint, t=trigger, m=margin, g=growth (default: ctmg)")
+    parser.add_argument("--tickers", default=None,
+                        help="Comma-separated list of specific tickers to run, bypassing universe filters (e.g. RDW,ASTS).")
+    parser.add_argument("--chokepoints", default="cross", choices=("cross", "full"),
+                        help="Chokepoints mode: cross=entities in 3+ filings (default), full=all named entities per filing.")
     parser.add_argument("--refresh", action="store_true",
                         help="Ignore caches; rebuild from scratch (expensive).")
     args = parser.parse_args()
