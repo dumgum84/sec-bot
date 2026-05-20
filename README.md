@@ -25,10 +25,18 @@ Default settings target under-followed small/mid-caps:
 | `--top-n` | `500` | Maximum tickers in universe |
 | `--days` | `365` | Filing recency window |
 | `--sort` | `ctmg` | Sort order: c=chokepoint, t=trigger, m=margin, g=growth |
+| `--tickers` | _(none)_ | Comma-separated tickers to run, bypassing universe filters |
+| `--chokepoints` | `cross` | Chokepoints mode: `cross` = 3+ filers, `full` = all named entities |
 
 Override anything from the command line. Pass `--refresh` to ignore caches
 and rebuild from scratch (expensive — re-pays for all extraction/summary
 LLM calls).
+
+To run on specific tickers outside the S&P 1500 universe:
+
+```
+py sec_report.py --tickers RDW,ASTS
+```
 
 ## One-time setup
 
@@ -51,7 +59,7 @@ secbot_0.1.0/
 ├── .env                     # API key
 ├── utils/                   # worker modules — usually not run directly
 │   ├── fetch.py             # fetch + section split for one filing
-│   ├── universe.py          # ticker universe builder
+│   ├── universe.py          # ticker universe builder (supports --tickers for ad-hoc runs)
 │   ├── watcher.py           # find recent 10-K filings
 │   ├── batch.py             # batch process the watch queue
 │   ├── extract.py           # LLM extraction (7 calls per filing)
@@ -77,7 +85,7 @@ secbot_0.1.0/
 sec_report.py
    ↓
 1. universe.py    builds output/data/universe.json
-                  (ticker list filtered by mcap band)
+                  (ticker list filtered by mcap band, or specific tickers via --tickers)
    ↓
 2. watcher.py     builds output/data/watch_queue.json
                   (10-K filings filed within --days)
@@ -107,15 +115,12 @@ the API.
 
 `utils/chokepoints.py` runs automatically as part of every pipeline run.
 It reads the already-extracted data and identifies named entities (companies)
-that appear across multiple filings as vendors, customers, or competitors.
+across vendor, customer, and competitor disclosures. Two modes are available
+via `--chokepoints`:
 
-The signal threshold is **3+ mentions** — frequent enough to be a real
-structural pattern, rare enough to be non-obvious. There is no upper cap:
-a supplier named by 60 filers is a stronger signal than one named by 6, not
-a weaker one. Universal infrastructure noise (Amazon, Google, Microsoft) is
-filtered by a denylist rather than an arbitrary ceiling.
-
-The output appears at the top of `sec_report.md` as a navigable index:
+**`cross` (default)** — entities appearing in 3+ filings. Best for large runs
+(500 filings) where the signal is structural patterns across the corpus.
+Universal noise (Amazon, Google, Microsoft) is filtered by a denylist.
 
 ```
 ## Chokepoints across this run
@@ -125,15 +130,34 @@ Customers named by multiple filers:
 
 Competitors named by multiple filers:
 - Medtronic — 8 filers: LIVN · MMSI · TNDM · ICUI · AORT · CNMD · INSP · HAE
-- Accenture — 7 filers: GDYN · ZD · CNXN · CSGS · NSIT · CNXC · MMS
 ```
 
-Chokepoints influence reading order: filings connected to more cross-corpus
-patterns surface first in the ranked list.
+**`full`** — every named entity from every filing, no threshold. Best for
+small targeted runs (`--tickers`) where you want to see the complete
+competitive landscape and shared relationships between specific companies.
 
-**No LLM calls. Free per run.** The chokepoint analysis only aggregates data
-already paid for during extraction. The signal compounds over time — more
-monthly runs means a richer corpus and sharper patterns.
+```
+py sec_report.py --tickers RDW,ASTS --chokepoints full
+```
+
+```
+## Entity index for this run
+
+Competitors:
+- Airbus — RDW
+- Iridium — ASTS
+- Rocket Lab — RDW · ASTS
+- SpaceX — RDW · ASTS
+```
+
+Entities appearing in multiple tickers (like SpaceX above) reveal shared
+competitive dynamics between the companies you are researching.
+
+Chokepoints also influence reading order: filings connected to more
+cross-corpus patterns surface first in the ranked list.
+
+**No LLM calls. Free per run.** The analysis only aggregates data already
+paid for during extraction.
 
 Run standalone to probe the data interactively:
 
