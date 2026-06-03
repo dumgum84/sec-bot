@@ -204,8 +204,9 @@ Filings are ranked flat (no tiers) using the `--sort` flag. Default is `ctmg`:
 | `tcgm` | trigger → chokepoint → growth → margin |
 
 All four metrics sort descending (higher = earlier in the report). Financial
-metrics (`m` and `g`) come from the `financial_performance` extraction and
-default to 0 for filings that haven't been re-extracted yet.
+metrics (`m` and `g`) come from the `financial_performance` extraction. Filings
+where margin or growth could not be extracted sort as a slight penalty (below
+breakeven but above severe losses) rather than neutral.
 
 To tune triggers, edit the detector functions in `utils/rank.py`. After
 editing, re-run `py sec_report.py` — re-ranking is free, and the digest
